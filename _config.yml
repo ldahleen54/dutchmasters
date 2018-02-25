@@ -28,6 +28,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+#Front matter for assets
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

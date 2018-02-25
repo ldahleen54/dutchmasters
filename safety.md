@@ -9,3 +9,8 @@ permalink: /safety/
 2. Never point a firearm at anything you are not willing to **kill** or **destroy**.
 3. Keep your finger **off** the trigger until you are ready to shoot.
 4. Be aware of your target and what is beyond.
+
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
