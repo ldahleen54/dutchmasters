@@ -4,10 +4,8 @@ title: Score Sheets
 permalink: /scores/
 ---
 
-|      |                       |        |       |        |       |        |         |       |       |        |         |       | 
+|      |  Name/Year            |        |       |        |       |        |         |       |       |        |         |       | 
 |------|-----------------------|--------|-------|--------|-------|--------|---------|-------|-------|--------|---------|-------| 
-|      |                       |        |       |        |       |        |         |       |       |        |         |       | 
-|      |                       |        |       |        |       |        |         |       |       |        |         |       | 
 |      |                       | Hogans | Speed | Turkey | Gut   |        | Shotgun |       |       |        |         |       | 
 |      |                       | Alley  | Demon | Shoot  | Check | Total  | Skeet   | Teal  | Trap  | Rabbit | total   | TOTAL | 
 |      | Bill A                |        |       |        |       |        |         |       |       |        |         |       | 
