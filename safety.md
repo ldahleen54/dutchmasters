@@ -10,4 +10,4 @@ permalink: /safety/
 3. Keep your finger **off** the trigger until you are ready to shoot.
 4. Be aware of your target and what is beyond.
 
-![My helpful screenshot]({{ "/assets/img/bluetarget.jpg" | absolute_url }})
+![]({{ "/assets/img/bluetarget.jpg" | absolute_url }})
