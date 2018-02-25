@@ -1,6 +1,6 @@
 ---
 layout: page
-page.title: Score Sheets
+title: Score Sheets
 permalink: /scores/
 ---
 
