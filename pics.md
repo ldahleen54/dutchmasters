@@ -9,3 +9,4 @@ permalink: /pics/
 ![]({{ "/assets/img/shotgunwithclays.jpg" | absolute_url }})
 ![]({{ "/assets/img/gunrack.jpg" | absolute_url }})
 ![]({{ "/assets/img/thrower.jpg" | absolute_url }})
+![]({{ "/assets/img/dutchmasterslogo.png" | absolute_url }})
