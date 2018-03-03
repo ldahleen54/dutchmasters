@@ -4,9 +4,7 @@ title: Pictures
 permalink: /pics/
 ---
 
-![]({{ "/assets/img/bluetarget.jpg" | absolute_url }})
-![]({{ "/assets/img/blacktarget.jpg" | absolute_url }})
-![]({{ "/assets/img/shotgunwithclays.jpg" | absolute_url }})
-![]({{ "/assets/img/gunrack.jpg" | absolute_url }})
-![]({{ "/assets/img/thrower.jpg" | absolute_url }})
-![]({{ "/assets/img/dutchmasterslogo.png" | absolute_url }})
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+  ![]({{ myimage.path }})
+{% endfor %}
