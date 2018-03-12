@@ -1,2 +1,3 @@
-# dutchmasters
-Static website generated with Jekyll 
+# Dutchmasters
+Static website generated with Jekyll
+[Dutchmasters]: https://dutchmasters.org
