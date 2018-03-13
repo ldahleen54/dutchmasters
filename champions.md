@@ -29,4 +29,4 @@ permalink: /champions/
 | 23 | Paul K | 2014 | 98 |
 | 24 | Rich K | 2015 | 96 |
 | 25 | John K Jr | 2016 | 101 |
-| 26 | Jim Serp Jr | 2017 |  |
+| 26 | Jim Serp Jr | 2017 | 98  |
