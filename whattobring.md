@@ -5,4 +5,30 @@ permalink: /whattobring/
 ---
 Bring a box of clay pigeons for the tournament and any extra for shooting before or after.
 Avoid white flyer's all orange clays are usually better for shooting.
-Bring about 3 boxes of shotgun shells.  
+Bring about 3 boxes of shotgun shells.
+<br>
+<br><br><br><br>
+<br>
+<br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -118,9 +118,9 @@
   background-color: $second-color;
   // to position the footer at the absolute bottom of the viewport the following are used
   //creates an issue with pictures page and scores page but is fixed with nofooter.html layout
-  position: absolute;
+  //position: absolute;
   bottom: 0;
-  width: 100%;
+  //width: 100%;
 }
 
 .footer-heading {
