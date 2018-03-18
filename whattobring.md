@@ -9,7 +9,7 @@ permalink: /whattobring/
 * Please avoid white flyers as they don't break as well as champion
 * 3 boxes of shotgun shells
 * Additional clay pigeons & shells for whatever you need for after the tournament
-* Please contact Rich if you want to participate in the group breakfast on Sunday.
+* Please contact Rich if you want to participate in the group breakfast on Sunday
 <br>
 <br>
 <br>
