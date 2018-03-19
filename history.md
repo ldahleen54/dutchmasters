@@ -1,3 +1,8 @@
+---
+layout: nofooter
+title: History
+permalink: /history/
+---
 # The Dutch Masters “High Noon Classic” Shooting Tournament
 
 In 1992, Brad asked his Best Man Gregg, “that for his bachelor party that we do something quiet, like go to the farm for a campout”. Gregg took that and came up with idea of a shooting competition!  With help from Vic and Brian they developed the tournament for Brad’s bachelor party.  Vic created the first scoresheets from the only computer they had in the ink lab, so Pistol was “Sheetfed” and Shotgun was “Heatset”! 
@@ -22,4 +27,4 @@ THANKS to everyone for helping with work days, logistics, planning, new event id
 
 Our motto remains…
 
-**"Think Safe, Be Safe and be your neighbor's keeper!"
+>**Think Safe, Be Safe and be your neighbor's keeper!**
