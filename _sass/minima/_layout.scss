@@ -22,8 +22,8 @@
 * (copied from base wrapper)
 */
 .pics-wrapper {
-   max-width: -webkit-calc(#{1200px} - (#{$spacing-unit} * 2));
-  max-width:         calc(#{1200px} - (#{$spacing-unit} * 2));
+   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: $spacing-unit;
@@ -31,8 +31,8 @@
   @extend %clearfix;
 
   @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{1200px} - (#{$spacing-unit}));
-    max-width:         calc(#{1200px} - (#{$spacing-unit}));
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit}));
     padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
   }
