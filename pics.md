@@ -1,5 +1,5 @@
 ---
-layout: nofooter
+layout: pics
 title: Pictures
 permalink: /pics/
 ---
