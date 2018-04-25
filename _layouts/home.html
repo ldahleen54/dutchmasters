@@ -7,6 +7,8 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {% endif %}
   
+  
+  
   <script>
 	// Set the date we're counting down to
 	var countDownDate = new Date("May 19, 2018 11:00:25").getTime();
@@ -26,20 +28,21 @@ layout: default
 		var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 		var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 		
-		// Output the result in an element with id="demo"
-		document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+		// Output the result in an element with id="countdown"
+		document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
 		+ minutes + "m " + seconds + "s ";
 		
 		// If the count down is over, write some text 
 		if (distance < 0) {
 			clearInterval(x);
-			document.getElementById("demo").innerHTML = "EXPIRED";
+			document.getElementById("countdown").innerHTML = "";
 		}
 	}, 1000);
-</script>
+  </script>
   
   <div class="save-date"> Workday: <b>May 12th</b>
     <br /> Tournament: <b>May 19th @ 11am $50 entrance fee</b>
+    <p id="countdown"></p>
   </div>
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/UJi_SPjGAoA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   {{ content }}
