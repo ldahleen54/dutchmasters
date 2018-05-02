@@ -1,3 +1,3 @@
 # Dutchmasters
 Static website generated with Jekyll
-[Dutchmasters] https://dutchmasters.org
+[Dutchmasters]https://dutchmasters.org
