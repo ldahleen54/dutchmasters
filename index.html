@@ -9,7 +9,11 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,7 +21,11 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.5/angular.min.js"></script>
+	<script src="component.js"> </script> 
+	<script src="app.js"></script>
   <body>
+  <div id="root"></div>
   <nav class="navbar navbar-inverse navbar-static-top">
 	<div class="container">
 		<div class="navbar-header">
@@ -27,11 +35,17 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Balance Web Development</a>
+			<a class="navbar-brand" href="#">Dutchmasters</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">About</a></li>
+				<li><a href="#">Champions</a></li>
+				<li><a href="#">History</a></li>
+				<li><a href="#">Pictures</a></li>
+				<li><a href="#">Gun Safety</a></li>
+				<li><a href="#">Score Sheets</a></li>
+				<li><a href="#">Videos</a></li>
+				<li><a href="#">What to Bring</a></li>
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
 					<ul class="dropdown-menu">
@@ -40,17 +54,25 @@
 						<li><a href="#">Consulting</a></li>
 					</ul>
 				</li>
-				<li><a href="#">Contact</a></li>
+				
 			</ul>
 		</div>
 	</div>
 </nav>
     <h1>Hello, world!</h1>
+	<div id="like_button_container"></div>
+	<div id="timer_container"></div>
+	<div id="root"> </div>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+	  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+	  <!-- Load our React components. -->
+	  <script src="like_button.js"></script>
+	  <script src="timer.js"></script>
   </body>
   
 </html>
