@@ -1,3 +1,3 @@
 # [Dutchmasters](https://dutchmasters.org)
-Static website generated with Jekyll
+Website for a gun tournament
 
