@@ -1,8 +1,10 @@
 var handlebars = require('handlebars');
 var http = require('http');
 
+
 const data = {
   title: "Dutchmasters",
+  home: "index.html",
   champions: "pages/champions.html",
   history: "pages/history.html",
   pictures: "pages/pictures.html",
@@ -31,18 +33,19 @@ const source = `
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
-<div class="container">
+<div class ="container">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Dutchmasters</a>
+    </buton>
+    <a class="navbar-brand" href={{home}}>Dutchmasters</a>
   </div>
   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
+    <h1>{{title}}</h1>
     <li><a href={{champions}}>Champions</a></li>
     <li><a href={{history}}>History</a></li>
     <li><a href={{pictures}}>Pictures</a></li>
@@ -50,31 +53,18 @@ const source = `
     <li><a href={{scores}}>Score Sheets</a></li>
     <li><a href={{videos}}>Videos</a></li>
     <li><a href={{whattobring}}>What to Bring</a></li>
-      <li class="dropdown">
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Design</a></li>
-          <li><a href="#">Development</a></li>
-          <li><a href="#">Consulting</a></li>
-        </ul>
-      </li>
-    </ul>
   </div>
 </div>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 `;
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
-    const template = handlebars.compile(source, { strict: true });
+    res.write('hello world!');
     const result = template(data);
     res.write(result);
     res.end();
-    var context = {title: "My New Post", body: "This is my first post!"};
-    var html    = template(context);
 }).listen(8080);
 
-// var source   = document.getElementById("entry-template").innerHTML;
 
-// const result = template(data);
-// console.log(result);
+const template = handlebars.compile(source, { strict: true });
+const result = template(data);
