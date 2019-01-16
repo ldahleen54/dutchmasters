@@ -2,8 +2,6 @@ var handlebars = require('handlebars');
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var http = require('http');
-var path = require('path')
 
 const inFile = 'header.hbs';
 
@@ -12,7 +10,7 @@ const data = require('./pages.json');
 const source = fs.readFileSync(inFile, 'utf8');
 
 // var appDir = global.rootDir;
-var appDir = "/home/luke/dutchmasters";
+var appDir = "C:/Users/coe_ladahle/dutchmasters";
 var imageDir = "/assets/";
 var imageSuffix = ".jpg";
 
