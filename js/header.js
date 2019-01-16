@@ -5,14 +5,14 @@ var http = require('http');
 const inFile = 'header.hbs';
 const outFile = 'header.html';
 
-const data = require('./pages.json');
+const json = require('./pages.json');
 
 const source = fs.readFileSync(inFile, 'utf8');
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
 
-    const result = template(data);
+    const result = template(json);
     res.write(result);
     res.end();
     // var context = {title: "My New Post", body: "This is my first post!"};
@@ -21,5 +21,5 @@ http.createServer(function (req, res) {
 
 // var source   = document.getElementById("entry-template").innerHTML;
 const template = handlebars.compile(source, { strict: true });
-// const result = template(data);
-// console.log(result);
+
+

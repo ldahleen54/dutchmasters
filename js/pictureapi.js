@@ -16,6 +16,8 @@ var appDir = "/home/luke/dutchmasters";
 var imageDir = "/assets/";
 var imageSuffix = ".jpg";
 
+//to retrieve image use /images/(name)
+
 app.get("/images/:id", function (request, response) {
     var path = imageDir + request.params.id + imageSuffix;
     console.log("fetching image: ", path);

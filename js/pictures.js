@@ -3,14 +3,14 @@ var fs = require('fs');
 var http = require('http');
 
 const inFile = 'pictures.hbs';
+const pictureDir = '../assets/img';
 const outFile = 'header.html';
 
 const source = fs.readFileSync(inFile, 'utf8');
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
-
-    const result = template(data);
+    const result = template(inFile);
     res.write(result);
     res.end();
 }).listen(8080);
