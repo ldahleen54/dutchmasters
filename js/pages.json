@@ -3,31 +3,31 @@
   "items": [
     {
       "navTitle": "Champions",
-      "navLink": "pages/champions"
+      "navLink": "champions.html"
     },
     {
       "navTitle": "History",
-      "navLink": "pages/history.html"
+      "navLink": "history.html"
     },
     {
       "navTitle": "Pictures",
-      "navLink": "pages/pictures.html"
+      "navLink": "pictures.html"
     },
     {
       "navTitle": "Safety",
-      "navLink": "pages/safety.html"
+      "navLink": "safety.html"
     },
     {
       "navTitle": "Scores",
-      "navLink": "pages/scores.html"
+      "navLink": "scores.html"
     },
     {
       "navTitle": "Videos",
-      "navLink": "pages/videos.html"
+      "navLink": "videos.html"
     },
     {
       "navTitle": "What To Bring",
-      "navLink": "pages/whattobring.html"
+      "navLink": "whattobring.html"
     }
   ]
 }
