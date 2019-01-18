@@ -1,6 +1,7 @@
 var fs = require('fs');
 var handlebars = require('handlebars');
 var http = require('http');
+var pictureapi = require('./pictureapi.js');
 
 var files = fs.readdirSync('../assets/img');
 const inFile = 'header.hbs';
@@ -19,10 +20,15 @@ http.createServer(function (req, res) {
 
     const result = template(json);
     res.write(result);
-    for(var i = 0; i < files.length; i++)
-    {
-        res.write("<img src= C:\Users\coe_ladahle\assets\img\\", files[i], "> </img>");
+    res.write('<p>');
+    var output = '';
+    for(var i = 0; i < files.length; i++){
+        output = '<img src=\"http://localhost:5000/images/' + files[i] + '\">';
+        output = output.replace('.jpg', '');
+        output = output.replace('.JPG', '');
+        res.write(output);        
     }
+    res.write('</p>');
     res.end();
     // var context = {title: "My New Post", body: "This is my first post!"};
     // var html    = template(context);

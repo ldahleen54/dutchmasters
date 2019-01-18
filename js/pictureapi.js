@@ -11,7 +11,7 @@ const source = fs.readFileSync(inFile, 'utf8');
 
 // var appDir = global.rootDir;
 var appDir = "C:/Users/coe_ladahle/dutchmasters";
-var imageDir = "/assets/";
+var imageDir = "/assets/img/";
 var imageSuffix = ".jpg";
 
 //to retrieve image use /images/(name)
@@ -22,5 +22,5 @@ app.get("/images/:id", function (request, response) {
     response.sendFile(path, { root: appDir });
 });
 
-app.listen(8080);
+app.listen(5000);
 const template = handlebars.compile(source, { strict: true });
