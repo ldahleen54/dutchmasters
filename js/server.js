@@ -1,6 +1,8 @@
+//Main starting point for the app
 var handlebars = require('handlebars');
 var fs = require('fs');
 var http = require('http');
+var header = require('./header.js');
 
 const inFile = 'header.hbs';
 const outFile = 'header.html';
@@ -14,6 +16,9 @@ http.createServer(function (req, res) {
 
     const result = template(json);
     res.write(result);
+    
+    let val = header.headerMake();
+    res.write(val)
     res.end();
     // var context = {title: "My New Post", body: "This is my first post!"};
     // var html    = template(context);1
