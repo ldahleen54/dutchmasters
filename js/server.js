@@ -25,22 +25,22 @@ http.createServer(function (request, response) {
     });
     
     response.writeHead(200, {'Content-Type': 'text/html'});    
-    var nav = header.headerMake();
+    var nav = generator.makeHeader();
     response.write(nav);
     if( url === "/champions") {
         response.write(generator.makeChampions());
     } else if( url === "/history") {
-        response.write(generator.makeHistory())
+        response.write(generator.makeHistory());
     } else if( url === "/pictures") {
-        response.write(generator.makePictures())
+        response.write(generator.makePictures());
     } else if( url === "/safety") {
-        response.write(generator.makeSafety())
+        response.write(generator.makeSafety());
     } else if( url === "/scores") {
-    response.write(generator.makeScores())
+    response.write(generator.makeScores());
     } else if( url === "/videos") {
-        response.write(generator.makeVideos())
+        response.write(generator.makeVideos());
     } else if( url === "/whattobring") {
-        response.write(generator.makeWhatToBring())
+        response.write(generator.makeWhatToBring());
     }
     response.end();
 }).listen(8080);

@@ -1,4 +1,4 @@
-//This is a component file that generates the champions page body
+//this file generates each of the pages and is used by server.js
 var handlebars = require('handlebars');
 var fs = require('fs');
 
