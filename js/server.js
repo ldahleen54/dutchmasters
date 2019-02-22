@@ -4,6 +4,7 @@ var fs = require('fs');
 var http = require('http');
 var header = require('./header.js');
 var champions = require('./champions.js');
+var generator = require('./pagegenerator.js');
 
 
 const json = require('./pages.json');
@@ -27,7 +28,19 @@ http.createServer(function (request, response) {
     var nav = header.headerMake();
     response.write(nav);
     if( url === "/champions") {
-        response.write(champions.makeChampions());
+        response.write(generator.makeChampions());
+    } else if( url === "/history") {
+        response.write(generator.makeHistory())
+    } else if( url === "/pictures") {
+        response.write(generator.makePictures())
+    } else if( url === "/safety") {
+        response.write(generator.makeSafety())
+    } else if( url === "/scores") {
+    response.write(generator.makeScores())
+    } else if( url === "/videos") {
+        response.write(generator.makeVideos())
+    } else if( url === "/whattobring") {
+        response.write(generator.makeWhatToBring())
     }
     response.end();
 }).listen(8080);
