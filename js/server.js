@@ -2,10 +2,7 @@
 var handlebars = require('handlebars');
 var fs = require('fs');
 var http = require('http');
-var header = require('./header.js');
-var champions = require('./champions.js');
 var generator = require('./pagegenerator.js');
-
 
 const json = require('./pages.json');
 
@@ -36,7 +33,7 @@ http.createServer(function (request, response) {
     } else if( url === "/safety") {
         response.write(generator.makeSafety());
     } else if( url === "/scores") {
-    response.write(generator.makeScores());
+        response.write(generator.makeScores());
     } else if( url === "/videos") {
         response.write(generator.makeVideos());
     } else if( url === "/whattobring") {
@@ -44,8 +41,3 @@ http.createServer(function (request, response) {
     }
     response.end();
 }).listen(8080);
-
-
-
-
-
