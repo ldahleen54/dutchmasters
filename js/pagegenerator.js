@@ -5,8 +5,6 @@ var fs = require('fs');
 
 const json = require('./pages.json');
 
-
-
 module.exports = {
     makeHeader: function() {
         var inFile = 'header.hbs';
