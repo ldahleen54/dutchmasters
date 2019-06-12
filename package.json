@@ -2,12 +2,12 @@
   "name": "dutchmasters",
   "version": "1.0.0",
   "description": "Gun Tournament Website",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "node index.js"
+    "start": "node ./js/server.js"
   },
   "repository": {
     "type": "git",
