@@ -24,7 +24,9 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/html'});    
     var nav = generator.makeHeader();
     response.write(nav);
-    if( url === "/champions") {
+    if(url === "/index") {
+        response.write(generator.makeIndex());
+    } else if( url === "/champions") {
         response.write(generator.makeChampions());
     } else if( url === "/history") {
         response.write(generator.makeHistory());

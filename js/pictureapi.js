@@ -10,7 +10,7 @@ const data = require('./pages.json');
 const source = fs.readFileSync(inFile, 'utf8');
 
 // var appDir = global.rootDir;
-var appDir = "C:/Users/coe_ladahle/dutchmasters";
+var appDir = "/home/luke/dutchmasters";
 var imageDir = "/assets/img/";
 var imageSuffix = ".jpg";
 

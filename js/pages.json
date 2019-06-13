@@ -29,5 +29,25 @@
       "navTitle": "What To Bring",
       "navLink": "whattobring"
     }
+  ],
+  "pictures": [
+    {
+      "name": "14", 
+      "year": "Unknown"
+    },
+    {
+      "name": "16",
+      "year": "Unknown"
+    }
+  ],
+  "homePictures": [
+    {
+      "name": "14", 
+      "year": "Unknown"
+    },
+    {
+      "name": "16",
+      "year": "Unknown"
+    }
   ]
 }

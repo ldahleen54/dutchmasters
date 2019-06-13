@@ -2,7 +2,6 @@
 var handlebars = require('handlebars');
 var fs = require('fs');
 
-
 const json = require('./pages.json');
 
 module.exports = {
@@ -61,8 +60,12 @@ module.exports = {
         var template = handlebars.compile(source, { strict: true });
         var result = template(json);
         return result;
-    }
-    
+    },
+    makeIndex: function() {
+        var inFile = 'index.hbs';
+        var source = fs.readFileSync(inFile, 'utf8');
+        var template = handlebars.compile(source, { strict: true });
+        var result = template(json);
+        return result;
+    }    
 }
-
-
