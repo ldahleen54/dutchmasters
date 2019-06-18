@@ -3,11 +3,11 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 
-const inFile = 'header.hbs';
+// const inFile = 'header.hbs';
 
 const data = require('./pages.json');
 
-const source = fs.readFileSync(inFile, 'utf8');
+// const source = fs.readFileSync(inFile, 'utf8');
 
 // var appDir = global.rootDir;
 var appDir = "/home/luke/dutchmasters";
@@ -23,4 +23,4 @@ app.get("/images/:id", function (request, response) {
 });
 
 app.listen(5000);
-const template = handlebars.compile(source, { strict: true });
+// const template = handlebars.compile(source, { strict: true });

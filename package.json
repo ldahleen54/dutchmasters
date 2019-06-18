@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next",
     "build": "next build",
-    "start": "node ./js/server.js"
+    "start": "node ./js/pictureapi.js & node ./js/server.js"
   },
   "repository": {
     "type": "git",
