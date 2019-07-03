@@ -13,11 +13,11 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(process.env.PORT || 3000, function(){
-    console.log('Your node js server is running');
-});
+// app.listen(process.env.PORT || 3000, function(){
+//     console.log('Your node js server is running');
+// });
 
-http.createServer(function (request, response) {
+app.listen(process.env.PORT || 3000, function (request, response) {
     const { headers, method, url } = request;
     const userAgent = headers['user-agent'];
 
