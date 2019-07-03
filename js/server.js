@@ -18,39 +18,44 @@ app.get('/', function(req, res) {
 // });
 
 app.listen(process.env.PORT || 3000, function (request, response) {
-    const { headers, method, url } = request;
-    const userAgent = headers['user-agent'];
+    // const { headers, method, url } = request;
+    // const userAgent = headers['user-agent'];
 
-    var body = [];
-    request.on('data', (chunk) => {
-        body.push(chunk);
-    }).on('end', () => {
-        body = Buffer.concat(body).toString();
-    }).on('error', (err) => {
-        response.writeHead(404);
-        response.write('The contents you are looking for are not found');
-        console.error(err);
-    });
+    // var body = [];
+    // request.on('data', (chunk) => {
+    //     body.push(chunk);
+    // }).on('end', () => {
+    //     body = Buffer.concat(body).toString();
+    // }).on('error', (err) => {
+    //     response.writeHead(404);
+    //     response.write('The contents you are looking for are not found');
+    //     console.error(err);
+    // });
     
-    response.writeHead(200, {'Content-Type': 'text/html'});    
+    // response.writeHead(200, {'Content-Type': 'text/html'});    
+    // should maybe use pageGenerator as a middleware function
     var nav = generator.makeHeader();
-    response.write(nav);
-    if(url === "/index" || url === "") {
-        response.write(generator.makeIndex());
-    } else if( url === "/champions") {
-        response.write(generator.makeChampions());
-    } else if( url === "/history") {
-        response.write(generator.makeHistory());
-    } else if( url === "/pictures") {
-        response.write(generator.makePictures());
-    } else if( url === "/safety") {
-        response.write(generator.makeSafety());
-    } else if( url === "/scores") {
-        response.write(generator.makeScores());
-    } else if( url === "/videos") {
-        response.write(generator.makeVideos());
-    } else if( url === "/whattobring") {
-        response.write(generator.makeWhatToBring());
-    }
-    response.end();
-}).listen(8080);
+    // response.write(nav);
+    app.get('/index' || '', function(req, res){
+        res.send(generator.makeIndex());
+    });
+    // if(url === "/index" || url === "") {
+    //     response.write(generator.makeIndex());
+    // } else if( url === "/champions") {
+    //     response.write(generator.makeChampions());
+    // } else if( url === "/history") {
+    //     response.write(generator.makeHistory());
+    // } else if( url === "/pictures") {
+    //     response.write(generator.makePictures());
+    // } else if( url === "/safety") {
+    //     response.write(generator.makeSafety());
+    // } else if( url === "/scores") {
+    //     response.write(generator.makeScores());
+    // } else if( url === "/videos") {
+    //     response.write(generator.makeVideos());
+    // } else if( url === "/whattobring") {
+    //     response.write(generator.makeWhatToBring());
+    // }
+    // response.end();
+});
+//).listen(8080);
