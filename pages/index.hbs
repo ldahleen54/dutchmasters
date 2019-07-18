@@ -6,13 +6,20 @@
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-
-    <!-- Wrapper for slides -->
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    {{!-- <h1 class="display-4">Fluid jumbotron</h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p> --}}
     <div class="carousel-inner">
         {{#each homePictures}}
-            <div class="item">
-                <img src="http://localhost:5000/images/{{this.name}}">
+            <div class="item active">
+                <img src="http://localhost:5000/images/{{this.name}}/{{this.year}}">
             </div>
         {{/each}}
     </div>
+  </div>
+</div>
+
+    <!-- Wrapper for slides -->
+    
 </p>
