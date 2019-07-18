@@ -16,11 +16,17 @@ var imageSuffix = ".jpg";
 
 //to retrieve image use /images/(name)
 
+app.get("/images/:id/:year", function (request, response) {
+    console.log("params: " + request.params["year"]);
+    var path = imageDir + request.params.year + "/" + request.params.id + imageSuffix;
+    console.log("fetching image: ", path);
+    response.sendFile(path, { root: appDir });
+});
 app.get("/images/:id", function (request, response) {
+    console.log("params: " + request.params["id"]);
     var path = imageDir + request.params.id + imageSuffix;
     console.log("fetching image: ", path);
     response.sendFile(path, { root: appDir });
 });
-
 app.listen(5000);
 // const template = handlebars.compile(source, { strict: true });
