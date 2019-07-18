@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
+    "dev": "nodemon ./js/pictureapi.js & nodemon ./js/server.js",
     "build": "next build",
     "start": "node ./js/pictureapi.js & node ./js/server.js"
   },
