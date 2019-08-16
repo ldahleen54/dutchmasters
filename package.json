@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./js/pictureapi.js & nodemon ./js/server.js",
-    "build": "next build",
+    "build": "node ./js/updateknack.js",
     "start": "node ./js/pictureapi.js & node ./js/server.js"
   },
   "repository": {
