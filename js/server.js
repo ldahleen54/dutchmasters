@@ -5,6 +5,13 @@ var fs = require('fs');
 const path = require('path');
 var generator = require('./pagegenerator.js');
 
+// aws access 
+process.env.AWS_ACCESS_KEY_ID     = process.env.BUCKETEER_AWS_ACCESS_KEY_ID;
+process.env.AWS_SECRET_ACCESS_KEY = process.env.BUCKETEER_AWS_SECRET_ACCESS_KEY;
+process.env.AWS_REGION            = 'us-east-1';
+var AWS = require('aws-sdk');
+var s3  = new AWS.S3();
+
 const json = require('./pages.json');
 
 app.listen(process.env.PORT || 3000, function (request, response) {
