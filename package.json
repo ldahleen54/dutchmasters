@@ -24,7 +24,7 @@
   "homepage": "https://github.com/ldahleen54/dutchmasters#readme",
   "dependencies": {
     "aws-sdk": "^2.648.0",
-    "bootstrap": "^4.1.3",
+    "bootstrap": "^4.3.1",
     "chokidar": "^2.0.4",
     "express": "^4.17.1",
     "grunt": "^1.0.3",
