@@ -3,4 +3,5 @@ _site
 .jekyll-metadata
 shootoutvideo.mp4
 .idea
+.env
 test
