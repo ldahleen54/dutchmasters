@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/ldahleen54/dutchmasters#readme",
   "dependencies": {
-    "aws-sdk": "^2.648.0",
     "bootstrap": "^4.3.1",
     "chokidar": "^2.0.4",
     "express": "^4.17.1",
@@ -35,6 +34,7 @@
     "next": "^7.0.2",
     "nodemon": "^1.18.10",
     "react": "^16.6.3",
+    "aws-sdk": "^2.648.0",
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
