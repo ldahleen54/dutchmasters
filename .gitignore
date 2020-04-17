@@ -3,5 +3,6 @@ _site
 .jekyll-metadata
 shootoutvideo.mp4
 .idea
+.env
 test
 node_modules

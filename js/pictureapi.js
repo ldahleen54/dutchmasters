@@ -11,7 +11,8 @@ const data = require('./pages.json');
 
 // var appDir = global.rootDir;
 var appDir = "/home/luke/dutchmasters";
-var imageDir = "/assets/img/";
+var imageDir = "https://dutchmasters.s3.us-east-2.amazonaws.com/";
+// var imageDir = "/assets/img/";
 var imageSuffix = ".jpg";
 
 //to retrieve image use /images/(name)
