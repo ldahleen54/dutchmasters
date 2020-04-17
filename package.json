@@ -34,7 +34,8 @@
     "next": "^9.3.2",
     "nodemon": "^1.18.10",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "aws-sdk": "^2.648.0"
   },
   "devDependencies": {
     "grunt-include-bootstrap": "^0.1.1"
