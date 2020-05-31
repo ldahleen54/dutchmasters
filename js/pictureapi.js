@@ -12,10 +12,9 @@ const data = require('./pages.json');
 var appDir = "/home/luke/dutchmasters";
 var imageDir = "https://dutchmasters.s3.us-east-2.amazonaws.com/";
 // var imageDir = "/assets/img/";
-var imageSuffix = ".jpg";
+var imageSuffix = "";
 
-//to retrieve image use /images/(name)
-app.get("/images/:id/:year", function (request, response) {
+app.get("/images/:year/:id/", function (request, response) {
     console.log("params: " + request.params["year"]);
     var path = imageDir + request.params.year + "/" + request.params.id + imageSuffix;
     console.log("fetching image: ", path);
