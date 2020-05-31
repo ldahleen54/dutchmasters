@@ -1,4 +1,4 @@
-<nav aria-label="Page navigation example">
+<nav aria-label="Year navigation">
   <ul class="pagination">
     <li class="page-item"><button class="btn active">Previous</button></li>
     <li class="page-item active "><button class="btn active">2006</button></li>
@@ -8,8 +8,8 @@
   </ul>
 </nav>
 <p>
-    <q>Pictures page will be updated soon!</q>
-    {{#each pictures}}
-      <img src="http://localhost:5000/images/{{this.name}}/{{this.year}}">
+
+    {{#each Contents}}
+      <img src="http://localhost:5000/images/{{this.Key}}">
     {{/each}}
 </p>
