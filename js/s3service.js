@@ -25,19 +25,17 @@ var s3  = new AWS.S3();
 let pictures = "test";
 module.exports = {
     getPictures: () => {
-        let datax = s3.listObjectsV2(params, function(error, data) {
+        s3.listObjectsV2(params, function(error, data) {
             if(error) {
                 console.log(error, error.stack);
             } else {
                 // doesn't change the global variable
                 fs.writeFile('s3objects.json', JSON.stringify(data), function (error) {
                     if (error) throw error;
-                    console.log('The "data to append" was appended to file!');
+                    console.log('Retrieved list of objects. Saved to s3 ');
                   });
             }
         });
-        console.log(datax);
-        return pictures
     }
 }
 
