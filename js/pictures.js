@@ -3,8 +3,6 @@ var fs = require('fs');
 var http = require('http');
 
 const inFile = 'pictures.hbs';
-const pictureDir = '../assets/img';
-const outFile = 'header.html';
 
 const source = fs.readFileSync(inFile, 'utf8');
 
