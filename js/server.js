@@ -15,6 +15,8 @@ var s3  = new AWS.S3();
 const json = require('./pages.json');
 
 app.listen(process.env.PORT || 3000, function (request, response) {
+
+    // TODO Make each generator call a middleware function
     // const { headers, method, url } = request;
     // const userAgent = headers['user-agent'];
 
@@ -29,8 +31,6 @@ app.listen(process.env.PORT || 3000, function (request, response) {
     //     console.error(err);
     // });
     
-    // response.writeHead(200, {'Content-Type': 'text/html'});    
-    // should maybe use pageGenerator as a middleware function
     var nav = generator.makeHeader();
     // response.write(nav);
     app.get('/index', function(req, res){
