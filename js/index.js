@@ -58,15 +58,14 @@ const source = `
 </div>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 `;
+const template = handlebars.compile(source, { strict: true });
 
 http.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/html'});
-    // res.write('hello world!');
     const result = template(data);
     res.write(result);
     res.end();
 }).listen(8080);
 
 
-const template = handlebars.compile(source, { strict: true });
-const result = template(data);
+// const result = template(data);
