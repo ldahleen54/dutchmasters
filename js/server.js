@@ -6,9 +6,9 @@ const path = require('path');
 var generator = require('./pagegenerator.js');
 
 // aws access 
-process.env.AWS_ACCESS_KEY_ID     = process.env.BUCKETEER_AWS_ACCESS_KEY_ID;
-process.env.AWS_SECRET_ACCESS_KEY = process.env.BUCKETEER_AWS_SECRET_ACCESS_KEY;
-process.env.AWS_REGION            = 'us-east-1';
+// process.env.AWS_ACCESS_KEY_ID     = process.env.BUCKETEER_AWS_ACCESS_KEY_ID;
+// process.env.AWS_SECRET_ACCESS_KEY = process.env.BUCKETEER_AWS_SECRET_ACCESS_KEY;
+process.env.AWS_REGION            = 'us-east-2';
 var AWS = require('aws-sdk');
 var s3  = new AWS.S3();
 
