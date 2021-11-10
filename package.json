@@ -9,11 +9,11 @@
     "api": "nodemon ./js/pictureapi.js",
     "build": "",
     "web": "nodemon ./js/server.js",
-    "start": "node ./js/pictureapi.js & node ./js/server.js"
+    "start": "node ./js/server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ldahleen54/dutchmasters.git"
+    "url": "git+https://github.com/ldah8leen54/dutchmasters.git"
   },
   "keywords": [
     "dutchmasters"
