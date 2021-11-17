@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/ldahleen54/dutchmasters#readme",
   "dependencies": {
+    "@netlify/plugin-nextjs": "^3.9.2",
     "aws-sdk": "^2.648.0",
     "bootstrap": "^4.3.1",
     "chokidar": "^3.5.2",
