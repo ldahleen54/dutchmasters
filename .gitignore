@@ -7,3 +7,4 @@ shootoutvideo.mp4
 test
 node_modules/
 public/
+.cache/
