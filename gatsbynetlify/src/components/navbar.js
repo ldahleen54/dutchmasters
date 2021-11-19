@@ -24,7 +24,7 @@ const Navbar = () => {
                         <Link to="/" className="btn btn-primary">Home</Link>
                     </li>
                     <li class="nav-item">
-                        <Link to="/safety" className="btn btn-primary">Safety</Link>
+                        <Link to="/info" className="btn btn-primary">Important Info!</Link>
                     </li>
                     <li class="nav-item">
                         <Link to="/pictures" className="btn btn-secondary">Pictures</Link>
