@@ -1,7 +1,16 @@
-<p><b>The Dutch Masters <q>High Noon Classic</q> Shooting Tournament</b></p>
+import * as React from "react"
+import { Link } from "gatsby"
+
+import Layout from "../components/layout"
+import Seo from "../components/seo"
+
+const History = () => (
+  <Layout>
+    <Seo title="History" />
+    <p><b>The Dutch Masters <q>High Noon Classic</q> Shooting Tournament</b></p>
 
 <p>
-    {{!-- Had to add codes for the quotes and apostrophes --}}
+    {/*  Had to add codes for the quotes and apostrophes */}
     In 1992, Brad asked his Best Man Gregg, <q>that for his bachelor party that we do something quiet, 
     like go to the farm for a campout</q>. 
     Gregg took that and came up with idea of a shooting competition! With help from Vic and Brian they developed
@@ -46,3 +55,8 @@
         </strong>
     </block>
 </p>
+
+    
+  </Layout>
+)
+export default History
