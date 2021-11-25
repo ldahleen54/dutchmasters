@@ -21,6 +21,11 @@ const Videos = () => (
       videoTitle="Shootout Video 2017"
     >
     </Video>
+    <Video
+      videoSrcURL="https://www.youtube.com/embed/UJi_SPjGAoA"
+      videoTitle="Shootout Video 2013"
+    >
+    </Video>
     <Link to="/">Back to Home Page</Link>
   </Layout>
 )
