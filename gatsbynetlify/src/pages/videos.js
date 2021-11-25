@@ -16,6 +16,11 @@ const Videos = () => (
       <li class="page-item"><button class="btn">Next</button></li>
     </ul>
     </nav>
+    <Video
+      videoSrcURL="https://www.youtube.com/embed/Z5Y-eRAxNUM"
+      videoTitle="Shootout Video 2017"
+    >
+    </Video>
     <Link to="/">Back to Home Page</Link>
   </Layout>
 )
