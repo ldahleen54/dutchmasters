@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Video from "../components/video"
 
 const Videos = () => (
   <Layout>
