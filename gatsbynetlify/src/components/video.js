@@ -12,4 +12,5 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
     />
   </div>
 )
-export default Video
+
+export default Video;
