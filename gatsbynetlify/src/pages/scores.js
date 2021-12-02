@@ -1,13 +1,16 @@
 import * as React from "react"
 import { Link } from "gatsby"
-
+import Table from "../components/table";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
+const headers = ["testing", "testing2", "testing3"];
+const data = null;
 const Scores = () => (
   <Layout>
     <Seo title="Pictures" />
-      <table>
+    <Table headers={headers} data={data}>
+    </Table>
+      {/* <table>
     <tbody>
       <tr>
         <td>&nbsp;</td>
@@ -10608,7 +10611,7 @@ const Scores = () => (
         <td>56.25</td>
       </tr>
     </tbody>
-  </table>
+  </table> */}
     
   </Layout>
 )
