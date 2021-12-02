@@ -13,7 +13,7 @@ const IndexPage = () => (
       alt="Dutchmasters Welcome Picture"
     />
     <p>
-      <Link to="/pictures">See Pictures</Link>
+      <Link to="/pictures">See More Pictures</Link>
     </p>
   </Layout>
 )
