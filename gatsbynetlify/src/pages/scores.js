@@ -8,7 +8,7 @@ const data = null;
 const Scores = () => (
   <Layout>
     <Seo title="Pictures" />
-    <Table headers={headers} data={data}>
+    <Table>
     </Table>
       {/* <table>
     <tbody>
