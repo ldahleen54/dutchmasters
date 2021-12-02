@@ -6,7 +6,7 @@ const Table = ({ ...props }) => {
         return (
             <div className="table">
                 <table>
-                    {headers}
+                    <p>testing55</p>
                 </table>
             </div>
         );
