@@ -1,15 +1,73 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import DataTable from 'react-data-table-component';
+import { Link } from "gatsby";
+import * as scores from "../data/scores.json";
 import Table from "../components/table";
+import scoreData from "../data/scores.json"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-const headers = ["testing", "testing2", "testing3"];
-const data = null;
+// TODO Pull this data from a json file
+const columns = [
+  {
+    name: "Hogans",
+    selector: row => row.Hogans
+  },
+  {
+    name: "Speed",
+    selector: row => row.Speed
+  },
+  {
+    name: "Turkey",
+    selector: row => row.Turkey
+  },
+  {
+    name: "Gut",
+    selector: row => row.Gut
+  },
+  {
+    name: "Pistol",
+    selector: row => row.Pistol
+  },
+  {
+    name: "Skeet",
+    selector: row => row.Skeet
+  },
+  {
+    name: "Teal",
+    selector: row => row.Teal
+  },
+  {
+    name: "Trap",
+    selector: row => row.Trap
+  },
+  {
+    name: "Rabbit",
+    selector: row => row.Rabbit
+  },
+  {
+    name: "Shotgun",
+    selector: row => row.Shotgun
+  },
+  {
+    name: "Total",
+    selector: row => row.Total
+  }
+];
+const data = [{
+  id: 1,
+  title: 'Beetlejuice',
+  year: '1988',
+},
+{
+  id: 2,
+  title: 'Ghostbusters',
+  year: '1984',
+}];
+
 const Scores = () => (
   <Layout>
-    <Seo title="Pictures" />
-    <Table>
-    </Table>
+    <Seo title="Scores" />
+    <DataTable columns={columns} data={scores.data}></DataTable>
       {/* <table>
     <tbody>
       <tr>
