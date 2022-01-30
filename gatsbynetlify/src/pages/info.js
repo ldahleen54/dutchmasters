@@ -5,7 +5,7 @@ import Seo from "../components/seo"
 
 const Info = () => (
   <Layout>
-    <Seo title="Pictures" />
+    <Seo title="Safety" />
     <h1>Gun Safety</h1>
     <ol>
       <li>Treat <strong>all</strong> guns as if they're loaded.</li>
