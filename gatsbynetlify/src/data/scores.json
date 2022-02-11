@@ -1,14 +1,78 @@
 {
-    "data": [{
-        "id": 1,
-        "Hogans": "11",
-        "Speed": "5",
-        "year": "1998"
-      },
-      {
-        "id": 2,
-        "Hogans": "12",
-        "Speed": "6",
-        "year": "1999"
-      }]
+    "shooters": [{
+            "name": "Bill A",
+            "scores": [{
+                "id": 1,
+                "Hogans": "11",
+                "Speed": "5",
+                "Turkey": "1",
+                "year": "1998"
+              },
+              {
+                "id": 2,
+                "Hogans": "12",
+                "Speed": "6",
+                "Turkey": "2",
+                "year": "1999"
+              },
+              {
+                "id": 3,
+                "Hogans": "13",
+                "Speed": "7",
+                "Turkey": "3",
+                "Year": "2000"
+              }
+            ]
+        },
+        {
+            "name": "Brian K",
+            "scores": [{
+                "id": 1,
+                "Hogans": "35",
+                "Speed": "35",
+                "Turkey": "35",
+                "year": "1998"
+              },
+              {
+                "id": 2,
+                "Hogans": "35",
+                "Speed": "35",
+                "Turkey": "35",
+                "year": "1999"
+              },
+              {
+                "id": 3,
+                "Hogans": "35",
+                "Speed": "35",
+                "Turkey": "35",
+                "Year": "2000"
+              }
+            ]
+        },
+        {
+            "name": "Luke D",
+            "scores": [{
+                "id": 1,
+                "Hogans": "1",
+                "Speed": "1",
+                "Turkey": "1",
+                "year": "1998"
+              },
+              {
+                "id": 2,
+                "Hogans": "1",
+                "Speed": "1",
+                "Turkey": "1",
+                "year": "1999"
+              },
+              {
+                "id": 3,
+                "Hogans": "13",
+                "Speed": "7",
+                "Turkey": "3",
+                "Year": "2000"
+              }
+            ]
+        } 
+    ]
 }
