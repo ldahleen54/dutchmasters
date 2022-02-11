@@ -1,15 +1,14 @@
 import * as React from "react"
 import DataTable from 'react-data-table-component';
 import { Link } from "gatsby";
-import * as scores from "../data/scores.json";
+import * as data from "../data/scores.json";
 import Table from "../components/table";
-import scoreData from "../data/scores.json"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 // TODO Pull this data from a json file
 const columns = [
   {
-    name: "Hogans",
+    name: "Hogans Alley",
     selector: row => row.Hogans
   },
   {
@@ -17,11 +16,11 @@ const columns = [
     selector: row => row.Speed
   },
   {
-    name: "Turkey",
+    name: "Turkey Shoot",
     selector: row => row.Turkey
   },
   {
-    name: "Gut",
+    name: "Gut Check",
     selector: row => row.Gut
   },
   {
@@ -53,21 +52,31 @@ const columns = [
     selector: row => row.Total
   }
 ];
-const data = [{
-  id: 1,
-  title: 'Beetlejuice',
-  year: '1988',
-},
-{
-  id: 2,
-  title: 'Ghostbusters',
-  year: '1984',
-}];
-
+// const data = [{
+//   id: 1,
+//   title: 'Beetlejuice',
+//   year: '1988',
+// },
+// {
+//   id: 2,
+//   title: 'Ghostbusters',
+//   year: '1984',
+// }];
+let selectedShooterId = 1;
 const Scores = () => (
   <Layout>
     <Seo title="Scores" />
-    <DataTable columns={columns} data={scores.data}></DataTable>
+  <div className="dropdown">
+    <button className="btn btn-secondary dropdown-toggle" type="button" id="selectShooter" data-bs-toggle="dropdown" aria-expanded="false">
+      Select Shooter
+    </button>
+    <ul className="dropdown-menu" aria-labelledby="selectShooter">
+      <li><a className="dropdown-item" href="#">Bill A</a></li>
+      <li><a className="dropdown-item" href="#">Brian K</a></li>
+      <li><a className="dropdown-item" href="#">Luke D</a></li>
+    </ul>
+  </div>
+    <DataTable columns={columns} data={data.shooters[selectedShooterId].scores}></DataTable>
       {/* <table>
     <tbody>
       <tr>
