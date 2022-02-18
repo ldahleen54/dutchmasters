@@ -2,18 +2,18 @@
     "name": "",
     "scores": [
         {
-            "year": "",
-            "hogans": "",
-            "speed": "",
-            "turkey": "",
-            "gut": "",
-            "pistol": "",
-            "skeet": "",
-            "teal": "",
-            "trap": "",
-            "rabbit": "",
-            "shotgun": "",
-            "total": ""
+            "year": -1,
+            "hogans": -1,
+            "speed": -1,
+            "turkey": -1,
+            "gut": -1,
+            "pistol": -1,
+            "skeet": -1,
+            "teal": -1,
+            "trap": -1,
+            "rabbit": -1,
+            "shotgun": -1,
+            "total": -1
         }
     ]
 }
