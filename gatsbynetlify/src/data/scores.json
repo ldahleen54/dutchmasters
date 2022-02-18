@@ -1,78 +1,65 @@
 {
-    "shooters": [{
-            "name": "Bill A",
-            "scores": [{
-                "id": 1,
-                "Hogans": "11",
-                "Speed": "5",
-                "Turkey": "1",
-                "year": "1998"
-              },
-              {
-                "id": 2,
-                "Hogans": "12",
-                "Speed": "6",
-                "Turkey": "2",
-                "year": "1999"
-              },
-              {
-                "id": 3,
-                "Hogans": "13",
-                "Speed": "7",
-                "Turkey": "3",
-                "Year": "2000"
-              }
-            ]
+  "shooters": [
+    {
+      "name": "Bill A",
+      "scores": [
+        {
+          "year": "1992",
+          "hogans": 7,
+          "speed": 4,
+          "turkey": 1,
+          "gut": null,
+          "pistol": 14,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": 34,
+          "total": 48
         },
         {
-            "name": "Brian K",
-            "scores": [{
-                "id": 1,
-                "Hogans": "35",
-                "Speed": "35",
-                "Turkey": "35",
-                "year": "1998"
-              },
-              {
-                "id": 2,
-                "Hogans": "35",
-                "Speed": "35",
-                "Turkey": "35",
-                "year": "1999"
-              },
-              {
-                "id": 3,
-                "Hogans": "35",
-                "Speed": "35",
-                "Turkey": "35",
-                "Year": "2000"
-              }
-            ]
+          "year": "1993",
+          "hogans": null,
+          "speed": null,
+          "turkey": null,
+          "gut": null,
+          "pistol": null,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": null,
+          "total": null
         },
         {
-            "name": "Luke D",
-            "scores": [{
-                "id": 1,
-                "Hogans": "1",
-                "Speed": "1",
-                "Turkey": "1",
-                "year": "1998"
-              },
-              {
-                "id": 2,
-                "Hogans": "1",
-                "Speed": "1",
-                "Turkey": "1",
-                "year": "1999"
-              },
-              {
-                "id": 3,
-                "Hogans": "13",
-                "Speed": "7",
-                "Turkey": "3",
-                "Year": "2000"
-              }
-            ]
-        } 
-    ]
+          "year": "1994",
+          "hogans": 8,
+          "speed": 5,
+          "turkey": 9,
+          "gut": null,
+          "pistol": 26,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": 21,
+          "total": 47
+        },
+        {
+          "year": "1994",
+          "hogans": 9,
+          "speed": 5,
+          "turkey": 8,
+          "gut": null,
+          "pistol": 27,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": 35,
+          "total": 62
+        }
+      ]      
+    }
+  ]     
 }
