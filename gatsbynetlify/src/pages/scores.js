@@ -5,7 +5,7 @@ import * as data from "../data/scores.json";
 import Table from "../components/table";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-// TODO Pull this data from a json file
+
 const columns = [
   {
     name: "Hogans Alley",
@@ -52,18 +52,9 @@ const columns = [
     selector: row => row.Total
   }
 ];
-// const data = [{
-//   id: 1,
-//   title: 'Beetlejuice',
-//   year: '1988',
-// },
-// {
-//   id: 2,
-//   title: 'Ghostbusters',
-//   year: '1984',
-// }];
-let selectedShooterId = 1;
-const Scores = () => (
+const Scores = () => { 
+  const [shooter, setShooter] = React.useState(0);
+  return(
   <Layout>
     <Seo title="Scores" />
   <div className="dropdown">
@@ -71,12 +62,13 @@ const Scores = () => (
       Select Shooter
     </button>
     <ul className="dropdown-menu" aria-labelledby="selectShooter">
-      <li><a className="dropdown-item" href="#">Bill A</a></li>
-      <li><a className="dropdown-item" href="#">Brian K</a></li>
-      <li><a className="dropdown-item" href="#">Luke D</a></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(0)}>Bill A</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(1)}>Brian K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(2)}>Luke D</btn></li>
     </ul>
   </div>
-    <DataTable columns={columns} data={data.shooters[selectedShooterId].scores}></DataTable>
+    <h2>Shooter: {data.shooters[shooter].name}</h2>
+    <DataTable columns={columns} data={data.shooters[shooter].scores}></DataTable>
       {/* <table>
     <tbody>
       <tr>
@@ -10681,5 +10673,5 @@ const Scores = () => (
   </table> */}
     
   </Layout>
-)
+) }
 export default Scores
