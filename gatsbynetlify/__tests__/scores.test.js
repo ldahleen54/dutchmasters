@@ -2,8 +2,10 @@ import * as data from "../src/data/scores.json";
 describe("Scores", () => {
   test("Pistol subtotals add up correctly", () => {
     data.shooters.forEach(element => {
+        let shooter = element.name;
         element.scores.forEach(score => {
             let pistolSubTotal = 0;
+            let year = score.year;
             if(score.hogans) {
                 pistolSubTotal = pistolSubTotal + score.hogans;
             }
@@ -17,15 +19,18 @@ describe("Scores", () => {
                 pistolSubTotal = pistolSubTotal + score.gut;
             }
             if(score.pistol) {
-                expect(score.pistol).toEqual(pistolSubTotal);
+                // added year and shooter name to make it easier to debug
+                expect({pistolTotal: score.pistol, shooter, year}).toEqual({pistolTotal: pistolSubTotal, shooter, year});
             }
         });
     });
   });
   test("Shotgun subtotals add up correctly", () => {
     data.shooters.forEach(element => {
+        let shooter = element.name;
         element.scores.forEach(score => {
             let shotgunSubtotal = 0;
+            let year = score.year;
             if(score.skeet) {
                 shotgunSubtotal = shotgunSubtotal + score.skeet;
             }
@@ -39,7 +44,8 @@ describe("Scores", () => {
                 shotgunSubtotal = shotgunSubtotal + score.rabbit;
             }
             if(score.shotgun && score.year >= "2001") {
-                expect(score.shotgun).toEqual(shotgunSubtotal);
+                // added year and shooter name to make it easier to debug
+                expect({shotgunTotal: score.shotgun, shooter, year}).toEqual({shotgunTotal: shotgunSubtotal, shooter, year});
             }
         });
     });
@@ -51,7 +57,7 @@ describe("Scores", () => {
             let year = score.year;
             if(score.total && score.pistol && score.shotgun) {
                 // added year and shooter name to make it easier to debug
-                expect({score: score.total, year, shooter}).toEqual({score: score.pistol + score.shotgun, year, shooter});
+                expect({total: score.total, year, shooter}).toEqual({total: score.pistol + score.shotgun, year, shooter});
             }
         });
     });
