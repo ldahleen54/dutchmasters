@@ -4,7 +4,7 @@
       "name": "Bill A",
       "scores": [
         {
-          "year": "1992",
+          "year": 1992,
           "hogans": 7,
           "speed": 4,
           "turkey": 1,
@@ -18,7 +18,7 @@
           "total": 48
         },
         {
-          "year": "1993",
+          "year": 1993,
           "hogans": null,
           "speed": null,
           "turkey": null,
@@ -32,7 +32,7 @@
           "total": null
         },
         {
-          "year": "1994",
+          "year": 1994,
           "hogans": 8,
           "speed": 5,
           "turkey": 9,
@@ -46,7 +46,7 @@
           "total": 47
         },
         {
-          "year": "1995",
+          "year": 1995,
           "hogans": 9,
           "speed": 5,
           "turkey": 8,
@@ -60,7 +60,7 @@
           "total": 62
         },
         {
-          "year": "1996",
+          "year": 1996,
           "hogans": 9,
           "speed": 6,
           "turkey": 9,
@@ -74,7 +74,7 @@
           "total": 60
         },
         {
-          "year": "1997",
+          "year": 1997,
           "hogans": 10,
           "speed": 7,
           "turkey": 7,
@@ -88,7 +88,7 @@
           "total": 58
         },
         {
-          "year": "1998",
+          "year": 1998,
           "hogans": 9,
           "speed": 9,
           "turkey": 7,
@@ -102,7 +102,7 @@
           "total": 58
         },
         {
-          "year": "1999",
+          "year": 1999,
           "hogans": 6,
           "speed": 8,
           "turkey": 8,
@@ -116,7 +116,7 @@
           "total": 56
         },
         {
-          "year": "2000",
+          "year": 2000,
           "hogans": 10,
           "speed": 11,
           "turkey": 5,
@@ -130,7 +130,7 @@
           "total": 61
         },
         {
-          "year": "2001",
+          "year": 2001,
           "hogans": 8,
           "speed": 8,
           "turkey": 10,
@@ -144,7 +144,7 @@
           "total": 69
         },
         {
-          "year": "2002",
+          "year": 2002,
           "hogans": 7,
           "speed": 9,
           "turkey": 7,
@@ -156,8 +156,204 @@
           "rabbit": null,
           "shotgun": 37,
           "total": 65
+        },
+        {
+          "year": 2003,
+          "hogans": 9,
+          "speed": 7,
+          "turkey": 7,
+          "gut": 6,
+          "pistol": 29,
+          "skeet": 16,
+          "teal": 13,
+          "trap": 15,
+          "rabbit": null,
+          "shotgun": 44,
+          "total": 73
+        },
+        {
+          "year": 2004,
+          "hogans": 8,
+          "speed": 12,
+          "turkey": 5,
+          "gut": 6,
+          "pistol": 31,
+          "skeet": 8,
+          "teal": 10,
+          "trap": 12,
+          "rabbit": null,
+          "shotgun": 30,
+          "total": 61
+        },
+        {
+          "year": 2005,
+          "hogans": 8,
+          "speed": 6,
+          "turkey": 8,
+          "gut": 3,
+          "pistol": 25,
+          "skeet": 11,
+          "teal": 7,
+          "trap": 13,
+          "rabbit": null,
+          "shotgun": 31,
+          "total": 56
+        },
+        {
+          "year": 2006,
+          "hogans": 10,
+          "speed": 11,
+          "turkey": 6,
+          "gut": 6,
+          "pistol": 33,
+          "skeet": 9,
+          "teal": 7,
+          "trap": 11,
+          "rabbit": null,
+          "shotgun": 27,
+          "total": 60
+        },
+        {
+          "year": 2007,
+          "hogans": 6,
+          "speed": 10,
+          "turkey": 8,
+          "gut": 8,
+          "pistol": 32,
+          "skeet": 11,
+          "teal": 13,
+          "trap": 12,
+          "rabbit": null,
+          "shotgun": 36,
+          "total": 68
+        },
+        {
+          "year": 2008,
+          "hogans": 4,
+          "speed": 10,
+          "turkey": 9,
+          "gut": 3,
+          "pistol": 26,
+          "skeet": 10,
+          "teal": 9,
+          "trap": 12,
+          "rabbit": null,
+          "shotgun": 31,
+          "total": 57
+        },
+        {
+          "year": 2009,
+          "hogans": 4,
+          "speed": 7,
+          "turkey": 11,
+          "gut": 4,
+          "pistol": 26,
+          "skeet": 14,
+          "teal": 9,
+          "trap": 15,
+          "rabbit": null,
+          "shotgun": 38,
+          "total": 64
+        },
+        {
+          "year": 2010,
+          "hogans": 5,
+          "speed": 6,
+          "turkey": 10,
+          "gut": 6,
+          "pistol": 27,
+          "skeet": 12,
+          "teal": 9,
+          "trap": 13,
+          "rabbit": 13,
+          "shotgun": 47,
+          "total": 74
+        },
+        {
+          "year": 2011,
+          "hogans": 8,
+          "speed": 7,
+          "turkey": 7,
+          "gut": 6,
+          "pistol": 28,
+          "skeet": 17,
+          "teal": 12,
+          "trap": 11,
+          "rabbit": 4,
+          "shotgun": 44,
+          "total": 72
+        },
+        {
+          "year": 2012,
+          "hogans": 7,
+          "speed": 6,
+          "turkey": 8,
+          "gut": 4,
+          "pistol": 25,
+          "skeet": 15,
+          "teal": 13,
+          "trap": 10,
+          "rabbit": 8,
+          "shotgun": 46,
+          "total": 71
+        },
+        {
+          "year": 2013,
+          "hogans": 4,
+          "speed": 6,
+          "turkey": 9,
+          "gut": 6,
+          "pistol": 25,
+          "skeet": 13,
+          "teal": 12,
+          "trap": 14,
+          "rabbit": 12,
+          "shotgun": 51,
+          "total": 76
+        },
+        {
+          "year": 2014,
+          "hogans": 5,
+          "speed": 7,
+          "turkey": 6,
+          "gut": 5,
+          "pistol": 23,
+          "skeet": 15,
+          "teal": 15,
+          "trap": 14,
+          "rabbit": 13,
+          "shotgun": 57,
+          "total": 80
+        },
+        {
+          "year": 2015,
+          "hogans": 11,
+          "speed": 7,
+          "turkey": 7,
+          "gut": 4,
+          "pistol": 29,
+          "skeet": 10,
+          "teal": 8,
+          "trap": 14,
+          "rabbit": 9,
+          "shotgun": 41,
+          "total": 70
+        },
+        {
+          "year": 2016,
+          "hogans": 7,
+          "speed": 5,
+          "turkey": 8,
+          "gut": 6,
+          "pistol": 26,
+          "skeet": 11,
+          "teal": 15,
+          "trap": 13,
+          "rabbit": 10,
+          "shotgun": 49,
+          "total": 75
         }
-      ]      
+      ]
     }
-  ]     
+  ]
 }
