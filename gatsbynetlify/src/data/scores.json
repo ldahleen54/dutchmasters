@@ -1153,6 +1153,67 @@
           "total": 80
         }
        ]
+    },
+    {
+      "name": "Luke D",
+      "scores": [
+        {
+          "year": 2013,
+          "hogans": 3,
+          "speed": 3,
+          "turkey": 1,
+          "gut": 0,
+          "pistol": 7,
+          "skeet": 2,
+          "teal": 9,
+          "trap": 6,
+          "rabbit": 3,
+          "shotgun": 20,
+          "total": 27
+        },
+        {
+          "year": 2014,
+          "hogans": null,
+          "speed": null,
+          "turkey": null,
+          "gut": null,
+          "pistol": null,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": null,
+          "total": null
+        },
+        {
+          "year": 2015,
+          "hogans": 5,
+          "speed": 8,
+          "turkey": 5,
+          "gut": 3,
+          "pistol": 21,
+          "skeet": 7,
+          "teal": 11,
+          "trap": 7,
+          "rabbit": 8,
+          "shotgun": 33,
+          "total": 54
+        },
+        {
+          "year": 2016,
+          "hogans": 5,
+          "speed": 6,
+          "turkey": 3,
+          "gut": 2,
+          "pistol": 16,
+          "skeet": 9,
+          "teal": 13,
+          "trap": 10,
+          "rabbit": 11,
+          "shotgun": 43,
+          "total": 59
+        }
+      ]
     }
   ]
 }

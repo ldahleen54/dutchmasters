@@ -70,6 +70,7 @@ const Scores = () => {
       <li><btn className="dropdown-item" onClick={() => setShooter(1)}>Brad D</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(2)}>Eric D</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(3)}>Gregg D</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(4)}>Luke D</btn></li>
     </ul>
   </div>
     <h2>Shooter: {data.shooters[shooter].name}</h2>
