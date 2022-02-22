@@ -1214,6 +1214,95 @@
           "total": 59
         }
       ]
+    },
+    {
+      "name": "Ryan D",
+      "scores": [
+        {
+          "year": 2011,
+          "hogans": 6,
+          "speed": 6,
+          "turkey": 9,
+          "gut": 2,
+          "pistol": 23,
+          "skeet": 9,
+          "teal": 6,
+          "trap": 10,
+          "rabbit": 7,
+          "shotgun": 32,
+          "total": 55
+        },
+        {
+          "year": 2012,
+          "hogans": 5,
+          "speed": 9,
+          "turkey": 9,
+          "gut": 4,
+          "pistol": 27,
+          "skeet": 12,
+          "teal": 12,
+          "trap": 8,
+          "rabbit": 11,
+          "shotgun": 43,
+          "total": 70
+        },
+        {
+          "year": 2013,
+          "hogans": 5,
+          "speed": 7,
+          "turkey": 8,
+          "gut": 3,
+          "pistol": 23,
+          "skeet": 7,
+          "teal": 11,
+          "trap": 11,
+          "rabbit": 3,
+          "shotgun": 32,
+          "total": 55
+        },
+        {
+          "year": 2014,
+          "hogans": 9,
+          "speed": 8,
+          "turkey": 7,
+          "gut": 4,
+          "pistol": 28,
+          "skeet": 13,
+          "teal": 14,
+          "trap": 13,
+          "rabbit": 13,
+          "shotgun": 53,
+          "total": 81
+        },
+        {
+          "year": 2015,
+          "hogans": 8,
+          "speed": 7,
+          "turkey": 10,
+          "gut": 7,
+          "pistol": 32,
+          "skeet": 12,
+          "teal": 13,
+          "trap": 11,
+          "rabbit": 12,
+          "shotgun": 48,
+          "total": 80
+        },
+        {
+          "year": 2016,
+          "hogans": 6,
+          "speed": 10,
+          "turkey": 9,
+          "gut": 6,
+          "pistol": 31,
+          "skeet": 12,
+          "teal": 12,
+          "trap": 8,
+          "rabbit": 11,
+          "shotgun": 43,
+          "total": 74
+        }
+      ]
     }
   ]
 }
