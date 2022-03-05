@@ -72,6 +72,34 @@ const Scores = () => {
       <li><btn className="dropdown-item" onClick={() => setShooter(3)}>Gregg D</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(4)}>Luke D</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(5)}>Ryan D</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(6)}>Vic D Jr</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(7)}>Vic D Sr</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(8)}>Zach D</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(9)}>Mike D</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(10)}>Jon F</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(11)}>Bob J</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(12)}>Todd J</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(13)}>Brian K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(14)}>Dave K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(15)}>Hank K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(16)}>Jack K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(17)}>Jim K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(18)}>John K Jr</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(19)}>John K Sr</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(20)}>Len K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(21)}>Matt K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(22)}>Mike K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(23)}>Paul K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(24)}>Pete K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(25)}>Rich K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(26)}>Chase R</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(27)}>Jim S</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(28)}>Jim S Sr</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(29)}>Gary S</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(30)}>John S</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(31)}>Brian McC</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(32)}>Jake K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(33)}>Davey D</btn></li>
     </ul>
   </div>
     <h2>Shooter: {data.shooters[shooter].name}</h2>
