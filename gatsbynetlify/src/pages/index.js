@@ -6,8 +6,8 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <image
-      src="https://dutchmasters.s3.us-east-2.amazonaws.com/123_1.jpg"
+    <img
+      src="https://dutchmasters.s3.us-east-2.amazonaws.com/2019/elder_group.jpg"
       alt="Dutchmasters Welcome Picture"
     />
     <p>
