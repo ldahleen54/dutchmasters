@@ -59,6 +59,12 @@ const columns = [
 ];
 const Scores = () => { 
   const [shooter, setShooter] = React.useState(0);
+  $("#shooterFilter").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#shooterList li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  })
   return(
   <Layout>
     <Seo title="Scores" />
@@ -66,7 +72,8 @@ const Scores = () => {
     <button className="btn btn-secondary dropdown-toggle" type="button" id="selectShooter" data-bs-toggle="dropdown" aria-expanded="false">
       Select Shooter
     </button>
-    <ul className="dropdown-menu" aria-labelledby="selectShooter">
+    <ul className="dropdown-menu" aria-labelledby="selectShooter" id="shooterList">
+      <input class="form-control" type="text" placeholder="Enter name" id="shooterFilter"></input>
       <li><btn className="dropdown-item" onClick={() => {$("#selectShooter").text("Bill A"); setShooter(0);}}>Bill A</btn></li>
       <li><btn className="dropdown-item" onClick={() => {$("#selectShooter").text("Brad D"); setShooter(1)}}>Brad D</btn></li>
       <li><btn className="dropdown-item" onClick={() => {$("#selectShooter").text("Eric D"); setShooter(2)}}>Eric D</btn></li>
