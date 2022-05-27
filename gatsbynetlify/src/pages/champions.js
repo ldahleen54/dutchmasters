@@ -121,7 +121,7 @@ const Champions = () => (
       <td>18</td>
       <td>Rich K</td>
       <td>2009</td>
-      <td>80.00</td>
+      <td>80</td>
     </tr>
     <tr>
       <td>19</td>
