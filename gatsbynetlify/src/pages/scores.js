@@ -63,7 +63,7 @@ const Scores = () => {
     <Seo title="Scores" />
   <div className="dropdown">
     <button className="btn btn-secondary dropdown-toggle" type="button" id="selectShooter" data-bs-toggle="dropdown" aria-expanded="false">
-      Select Shooter
+      {data.shooters[shooter].name}
     </button>
     <ul className="dropdown-menu" aria-labelledby="selectShooter">
       <li><btn className="dropdown-item" onClick={() => setShooter(0)}>Bill A</btn></li>
