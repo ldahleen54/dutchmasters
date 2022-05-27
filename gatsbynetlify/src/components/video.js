@@ -5,7 +5,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
       src={videoSrcURL}
       title={videoTitle}
       width="100%"
-      height="100%"
+      height="600"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       frameBorder="0"
       webkitallowfullscreen="true"
