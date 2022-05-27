@@ -21,9 +21,9 @@ const Info = () => (
     </strong>
     </h1>
     <ul>
-      <li>$50 entry fee</li>
+      <li>$60 entry fee</li>
       <li>1 Box of all-orange clay pigeons</li>
-      <li>Please avoid white flyers as they don't break as well as champion</li>
+      {/* <li>Please avoid white flyers as they don't break as well as champion</li> */}
       <li>3 boxes of shotgun shells</li>
       <li>Additional clay pigeons &amp; shells for whatever you need for after the tournament</li>
       <li>Please contact Rich if you want to participate in the group breakfast on Sunday </li>
