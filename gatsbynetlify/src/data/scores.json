@@ -7418,12 +7418,40 @@
           "turkey": 4,
           "block": 3,
           "pistol": 20,
+          "skeet": 0,
+          "teal": 2,
+          "trap": 7,
+          "rabbit": 13,
+          "shotgun": 15,
+          "total": 33
+        },
+        {
+          "year": 2021,
+          "hogans": null,
+          "speed": null,
+          "turkey": null,
+          "block": null,
+          "pistol": null,
           "skeet": null,
           "teal": null,
           "trap": null,
           "rabbit": null,
           "shotgun": null,
           "total": null
+        },
+        {
+          "year": 2022,
+          "hogans": 5,
+          "speed": 5,
+          "turkey": 7,
+          "block": 0,
+          "pistol": 17,
+          "skeet": 6,
+          "teal": 1,
+          "trap": 0,
+          "rabbit": 10,
+          "shotgun": 17,
+          "total": 34
         }
       ]
     }
