@@ -6,6 +6,7 @@
   "author": "Luke Dahleen <ldahleen54@gmail.com>",
   "dependencies": {
     "bootstrap": "^5.1.3",
+    "eslint": "^7.32.0",
     "gatsby": "^4.6.0",
     "gatsby-plugin-gatsby-cloud": "^4.6.0",
     "gatsby-plugin-manifest": "^4.6.0",
