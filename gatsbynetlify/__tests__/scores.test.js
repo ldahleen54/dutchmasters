@@ -1,6 +1,7 @@
 import * as data from "../src/data/scores.json";
 describe("Scores", () => {
   test("Pistol subtotals add up correctly", () => {
+    let containsBlock
     data.shooters.forEach(element => {
         let shooter = element.name;
         element.scores.forEach(score => {
@@ -15,8 +16,11 @@ describe("Scores", () => {
             if(score.turkey) {
                 pistolSubTotal = pistolSubTotal + score.turkey;
             }
-            if(score.gut) {
-                pistolSubTotal = pistolSubTotal + score.gut;
+            if(score.block) {
+                pistolSubTotal = pistolSubTotal + score.block;
+            } else {
+                // if score.block is null then don't check the subtotal
+                return;
             }
             if(score.pistol) {
                 // added year and shooter name to make it easier to debug
