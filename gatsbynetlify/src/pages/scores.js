@@ -24,8 +24,8 @@ const columns = [
     selector: row => row.turkey
   },
   {
-    name: "Gut Check",
-    selector: row => row.gut
+    name: "Block",
+    selector: row => row.block
   },
   {
     name: "Pistol",
