@@ -13,7 +13,7 @@ s3.listObjectsV2(params, function(error, data) {
         console.log(error, error.stack);
     } else {
         // doesn't change the global variable
-        fs.writeFile(`${__dirname}s3objects.json`, JSON.stringify(data), function (error) {
+        fs.writeFile(`${__dirname}/s3objects.json`, JSON.stringify(data), function (error) {
             if (error) throw error;
             console.log('Retrieved list of objects. Saved to s3objects.json.');
         });
