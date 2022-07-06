@@ -1,0 +1,82 @@
+{
+    "IsTruncated": false,
+    "Contents": [
+        {
+            "Key": "2008/",
+            "LastModified": "2020-03-29T19:51:40.000Z",
+            "ETag": "\"d41d8cd98f00b204e9800998ecf8427e\"",
+            "ChecksumAlgorithm": [],
+            "Size": 0,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 001.jpg",
+            "LastModified": "2020-04-06T22:13:04.000Z",
+            "ETag": "\"f0ea476d079c78428b63c0bd7aae3eba\"",
+            "ChecksumAlgorithm": [],
+            "Size": 1970996,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 002.jpg",
+            "LastModified": "2020-04-06T22:13:01.000Z",
+            "ETag": "\"03300638a12ad5c93b2ac8e5b2853943\"",
+            "ChecksumAlgorithm": [],
+            "Size": 2476461,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 003.jpg",
+            "LastModified": "2020-04-06T22:13:02.000Z",
+            "ETag": "\"f7ca9c8fe80590056578b69bfa9a6d3d\"",
+            "ChecksumAlgorithm": [],
+            "Size": 2206217,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 004.jpg",
+            "LastModified": "2020-04-06T22:12:58.000Z",
+            "ETag": "\"79840dcc9f5ecea997440677f5abbc26\"",
+            "ChecksumAlgorithm": [],
+            "Size": 1830940,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 005.jpg",
+            "LastModified": "2020-04-06T22:12:58.000Z",
+            "ETag": "\"0fb3e36183b8374b6132bb1ee8d25e5a\"",
+            "ChecksumAlgorithm": [],
+            "Size": 1855168,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 006.jpg",
+            "LastModified": "2020-04-06T22:12:57.000Z",
+            "ETag": "\"f117527ec58e6b5c9af4cf948f751cef\"",
+            "ChecksumAlgorithm": [],
+            "Size": 1895300,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 007.jpg",
+            "LastModified": "2020-04-06T22:13:02.000Z",
+            "ETag": "\"8978d100974423afa80d4a5774181201\"",
+            "ChecksumAlgorithm": [],
+            "Size": 1539190,
+            "StorageClass": "STANDARD"
+        },
+        {
+            "Key": "2008/High Noon Classic 2008 008.jpg",
+            "LastModified": "2020-04-06T22:13:03.000Z",
+            "ETag": "\"a29e258eadec8c9e7ab2b0168b3ff428\"",
+            "ChecksumAlgorithm": [],
+            "Size": 1738784,
+            "StorageClass": "STANDARD"
+        }
+    ],
+    "Name": "dutchmasters",
+    "Prefix": "2008/",
+    "MaxKeys": 1000,
+    "CommonPrefixes": [],
+    "KeyCount": 9
+}
