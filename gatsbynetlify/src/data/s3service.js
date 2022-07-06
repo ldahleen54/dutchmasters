@@ -21,7 +21,14 @@ for(let i = 0; i < years.length; i++) {
         if(error) {
             console.log(error, error.stack);
         } else {
-            fs.writeFile(`${__dirname}/${years[i]}s3objects.json`, JSON.stringify(data), function (error) {
+            let paths = {
+                objects: []
+            };
+            // prefix is always first in the contents array so we will ignore i = 0
+            for (let i = 1; i < data.Contents.length; i++) {
+                paths.objects[i - 1] = data.Contents[i].Key;
+            }
+            fs.writeFile(`${__dirname}/${years[i]}s3objects.json`, JSON.stringify(paths), function (error) {
                 if (error) throw error;
                 console.log(`Retrieved list of objects. Saved to ${years[i]}s3objects.json.`);
             });
