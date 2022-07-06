@@ -19,7 +19,7 @@ module.exports = {
                 fs.writeFile('s3objects.json', JSON.stringify(data), function (error) {
                     if (error) throw error;
                     console.log('Retrieved list of objects. Saved to s3 ');
-                  });
+                });
             }
         });
     }
