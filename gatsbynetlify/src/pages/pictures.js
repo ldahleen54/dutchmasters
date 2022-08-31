@@ -19,8 +19,8 @@ class Pictures extends React.Component {
     this.state = { 
       showPictureGroup2006: false, 
       showPictureGroup2008: false,
-      showPictureGroup2009: true,
-      showPictureGroup2019: false 
+      showPictureGroup2009: false,
+      showPictureGroup2019: true 
     };
   }
 
