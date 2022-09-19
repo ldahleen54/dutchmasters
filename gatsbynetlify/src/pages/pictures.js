@@ -195,6 +195,9 @@ class Pictures extends React.Component {
               <this.ButtonNext />
             </ul>
           </div>
+          <h3>
+            {this.state.currentPictureYear}
+          </h3>          
         </nav>
       { this.state.currentPictureYear === "2006" ? <this.PictureGroup year="2006"/> : null }
       { this.state.currentPictureYear === "2008" ? <this.PictureGroup year="2008"/> : null }
