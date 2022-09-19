@@ -9,6 +9,8 @@ import * as objects2009 from "../data/2009s3objects.json"
 import * as objects2019 from "../data/2019s3objects.json"
 
 
+const pictureYears = ["2006", "2008", "2009", "2019"]
+
 class Pictures extends React.Component {
   constructor(props) {
     super(props);
@@ -17,50 +19,61 @@ class Pictures extends React.Component {
     this.handle2009Click = this.handle2009Click.bind(this);
     this.handle2019Click = this.handle2019Click.bind(this);
     this.state = { 
-      showPictureGroup2006: false, 
-      showPictureGroup2008: false,
-      showPictureGroup2009: false,
-      showPictureGroup2019: true 
+      currentPictureIndex: 3,
+      currentPictureYear: "2019"
     };
   }
 
   /* Handlers */
   handle2006Click = () => {
     this.setState({ 
-      showPictureGroup2006: true, 
-      showPictureGroup2008: false,
-      showPictureGroup2009: false,
-      showPictureGroup2019: false 
+      currentPictureIndex: 0,
+      currentPictureYear: "2006"
     })
   }
 
   handle2008Click = () => {
     this.setState({ 
-      showPictureGroup2006: false, 
-      showPictureGroup2008: true,
-      showPictureGroup2009: false,
-      showPictureGroup2019: false 
+      currentPictureIndex: 1,
+      currentPictureYear: "2008"
     })
   }
 
   handle2009Click = () => {
-    console.log("activated 2009")
     this.setState({ 
-      showPictureGroup2006: false, 
-      showPictureGroup2008: false,
-      showPictureGroup2009: true,
-      showPictureGroup2019: false 
+      currentPictureIndex: 2,
+      currentPictureYear: "2009"
     })
   }
 
   handle2019Click = () => {
-    this.setState({ 
-      showPictureGroup2006: false, 
-      showPictureGroup2008: false,
-      showPictureGroup2009: false,
-      showPictureGroup2019: true 
+    this.setState({
+      currentPictureIndex: 3,
+      currentPictureYear: "2019"
     })
   }
+
+  handleNextClick = () => {
+    let nextIndex = this.state.currentPictureIndex + 1;
+    if (nextIndex < pictureYears.length) {
+      this.setState({
+        currentPictureIndex: nextIndex,
+        currentPictureYear: pictureYears[nextIndex]
+      })
+    }    
+  }
+
+  handlePreviousClick = () => {
+    console.log("handled previous click")
+    let nextIndex = this.state.currentPictureIndex - 1;
+    if (nextIndex >= 0) {
+      this.setState({
+        currentPictureIndex: nextIndex,
+        currentPictureYear: pictureYears[nextIndex]
+      })
+    }    
+  }
+
 
   PictureGroup = (props) => {
     if(props.year == "2006") {
@@ -133,10 +146,26 @@ class Pictures extends React.Component {
 
   Button2019 = (props) => {
     return (
-      <button onClick={this.handle2019Click}>
+      <button onClick={this.handle2019Click} className="page-item btn active">
         2019
       </button>
     );
+  }
+
+  ButtonNext = (props) => {
+    return (
+      <button onClick={this.handleNextClick}>
+        Next
+      </button>
+    )
+  }
+  
+  ButtonPrevious = (props) => {
+    return (
+      <button onClick={this.handlePreviousClick}>
+        Previous
+      </button>
+    )
   }
 
   render() {
@@ -144,19 +173,21 @@ class Pictures extends React.Component {
       <Layout>
         <Seo title="Pictures" />
         <nav aria-label="Year navigation">
-          <ul className="pagination">
-            <li className="page-item"><button className="btn active">Previous</button></li>
-            <this.Button2006 />
-            <this.Button2008 />
-            <this.Button2009 />
-            <this.Button2019 />
-            <li className="page-item"><button className="btn">Next</button></li>
-          </ul>
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <ul className="pagination">
+              <this.ButtonPrevious />
+              <this.Button2006 />
+              <this.Button2008 />
+              <this.Button2009 />
+              <this.Button2019 />
+              <this.ButtonNext />
+            </ul>
+          </div>
         </nav>
-      { this.state.showPictureGroup2006 ? <this.PictureGroup year="2006"/> : null }
-      { this.state.showPictureGroup2008 ? <this.PictureGroup year="2008"/> : null }
-      { this.state.showPictureGroup2009 ? <this.PictureGroup year="2009"/> : null }
-      { this.state.showPictureGroup2019 ? <this.PictureGroup year="2019"/> : null }
+      { this.state.currentPictureYear === "2006" ? <this.PictureGroup year="2006"/> : null }
+      { this.state.currentPictureYear === "2008" ? <this.PictureGroup year="2008"/> : null }
+      { this.state.currentPictureYear === "2009" ? <this.PictureGroup year="2009"/> : null }
+      { this.state.currentPictureYear === "2019" ? <this.PictureGroup year="2019"/> : null }
         <Link to="/">Back to Home Page</Link>
       </Layout>
     );  
