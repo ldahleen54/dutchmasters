@@ -76,7 +76,7 @@ class Pictures extends React.Component {
 
 
   PictureGroup = (props) => {
-    if(props.year == "2006") {
+    if(props.year === "2006") {
       return (
         <ul>
           {objects2006.objects.map(path => (
@@ -86,7 +86,7 @@ class Pictures extends React.Component {
           ))}
         </ul>        
       )    
-    } else if(props.year == "2008") {
+    } else if(props.year === "2008") {
       return (
         <div>
           {objects2008.objects.map(path => (
@@ -96,7 +96,7 @@ class Pictures extends React.Component {
           ))}
         </div>
       )
-    } else if(props.year == "2009") {
+    } else if(props.year === "2009") {
       return (
         <div>
           {objects2009.objects.map(path => (
@@ -122,49 +122,61 @@ class Pictures extends React.Component {
   /* Buttons */
   Button2006 = (props) => {
     return (
-      <button onClick={this.handle2006Click}>
-        2006
-      </button>
+      <li>
+        <button onClick={this.handle2006Click} className="btn btn-dark">
+         2006
+        </button>
+      </li>      
     );
   }
 
   Button2008 = (props) => {
     return (
-      <button onClick={this.handle2008Click}>
-        2008
-      </button>
+      <li>
+        <button onClick={this.handle2008Click} className="btn btn-dark">
+         2008
+        </button>
+      </li>
     );
   }
 
   Button2009 = (props) => {
     return (
-      <button onClick={this.handle2009Click}>
-        2009
-      </button>
+      <li>
+        <button onClick={this.handle2009Click} className="btn btn-dark">
+         2009
+        </button>
+      </li>      
     );
   }
 
   Button2019 = (props) => {
     return (
-      <button onClick={this.handle2019Click} className="page-item btn active">
-        2019
-      </button>
+      <li>
+        <button onClick={this.handle2019Click} className="btn btn-dark">
+         2019
+        </button>
+      </li>
     );
   }
 
   ButtonNext = (props) => {
     return (
-      <button onClick={this.handleNextClick}>
-        Next
-      </button>
+      <li>
+        <button onClick={this.handleNextClick} className="btn btn-dark">
+          Next
+        </button>
+      </li>
     )
   }
   
   ButtonPrevious = (props) => {
     return (
-      <button onClick={this.handlePreviousClick}>
-        Previous
-      </button>
+      <li>
+        <button onClick={this.handlePreviousClick} className="btn btn-dark">
+          Previous
+        </button>
+      </li>
     )
   }
 
