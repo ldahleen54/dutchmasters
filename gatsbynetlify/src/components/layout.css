@@ -496,6 +496,7 @@ ol li {
 }
 ul li {
   padding-left: 0;
+  list-style: none;
 }
 li > ol {
   margin-left: 1.45rem;
