@@ -7418,11 +7418,11 @@
           "turkey": 4,
           "block": 3,
           "pistol": 20,
-          "skeet": 0,
-          "teal": 2,
-          "trap": 7,
-          "rabbit": 13,
-          "shotgun": 15,
+          "skeet": 4,
+          "teal": 0,
+          "trap": 2,
+          "rabbit": 7,
+          "shotgun": 13,
           "total": 33
         },
         {
