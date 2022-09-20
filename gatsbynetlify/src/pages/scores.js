@@ -5,7 +5,6 @@ import * as data from "../data/scores.json";
 import Table from "../components/table";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-// TODO write a unit test for testing the totals and subtotals
 const columns = [
   {
     name: "Year",
@@ -58,6 +57,21 @@ const columns = [
 ];
 const Scores = () => { 
   const [shooter, setShooter] = React.useState(0);
+  const filterFunction = () => {
+    let input = document.getElementById("myInput");
+    let filter = input.value.toUpperCase();
+    let div = document.getElementById("shooterDropdown");
+    console.log("called filter function");
+    let btn = div.getElementsByTagName("btn");
+    for (let i = 0; i < btn.length; i++) {
+      let txtValue = btn[i].textContent || btn[i].innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        btn[i].style.display = "";
+      } else {
+        btn[i].style.display = "none";
+      }
+    }
+  }
   return(
   <Layout>
     <Seo title="Scores" />
@@ -65,7 +79,8 @@ const Scores = () => {
     <button className="btn btn-secondary dropdown-toggle" type="button" id="selectShooter" data-bs-toggle="dropdown" aria-expanded="false">
       {data.shooters[shooter].name}
     </button>
-    <ul className="dropdown-menu" aria-labelledby="selectShooter">
+    <ul className="dropdown-menu" aria-labelledby="selectShooter" id="shooterDropdown">
+      <li><input type="text" placeholder="Search.." id="myInput" onKeyUp={() => filterFunction()} /></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(0)}>Bill A</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(1)}>Brad D</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(2)}>Eric D</btn></li>
