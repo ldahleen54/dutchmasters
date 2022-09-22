@@ -2334,7 +2334,6 @@
           "shotgun": 53,
           "total": 83
         },
-        ,
         {
           "year": 2017,
           "hogans": 7,
@@ -2825,6 +2824,90 @@
           "rabbit": 12,
           "shotgun": 41,
           "total": 55
+        },
+        {
+          "year": "2017",
+          "hogans": null,
+          "speed": null,
+          "turkey": null,
+          "block": null,
+          "pistol": null,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": null,
+          "total": null
+        },
+        {
+          "year": 2018,
+          "hogans": 1,
+          "speed": 4,
+          "turkey": 0,
+          "block": 0,
+          "pistol": 5,
+          "skeet": 5,
+          "teal": 12,
+          "trap": 8,
+          "rabbit": 7,
+          "shotgun": 32,
+          "total": 37
+        },
+        {
+          "year": 2019,
+          "hogans": null,
+          "speed": null,
+          "turkey": null,
+          "block": null,
+          "pistol": null,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": null,
+          "total": null
+        },
+        {
+          "year": 2020,
+          "hogans": 4,
+          "speed": 5,
+          "turkey": 5,
+          "block": 1,
+          "pistol": 15,
+          "skeet": 6,
+          "teal": 11,
+          "trap": 7,
+          "rabbit": 10,
+          "shotgun": 34,
+          "total": 49
+        },
+        {
+          "year": 2021,
+          "hogans": null,
+          "speed": null,
+          "turkey": null,
+          "block": null,
+          "pistol": null,
+          "skeet": null,
+          "teal": null,
+          "trap": null,
+          "rabbit": null,
+          "shotgun": null,
+          "total": null
+        },
+        {
+          "year": 2022,
+          "hogans": 3,
+          "speed": 3,
+          "turkey": 3,
+          "block": 4,
+          "pistol": 13,
+          "skeet": 6,
+          "teal": 12,
+          "trap": 10,
+          "rabbit": 12,
+          "shotgun": 40,
+          "total": 53
         }
       ]
     },
