@@ -1,12 +1,9 @@
 #!/bin/sh
 # creates a score json object using a string that comes from a row in excel
-echo "testing"
 read row
 echo "entire row"
 echo $row
 row_array=( $row )
-echo "first item"
-echo ${row_array[0]}
 echo "{"
 echo "  \"year\": ${row_array[0]},"
 echo "  \"hogans\": ${row_array[1]},"
