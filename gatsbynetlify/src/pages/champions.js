@@ -171,6 +171,36 @@ const Champions = () => (
       <td>2017</td>
       <td>98</td>
     </tr>
+    <tr>
+      <td>27</td>
+      <td>John K Jr</td>
+      <td>2018</td>
+      <td>97</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>Rich K</td>
+      <td>2019</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>Rich K</td>
+      <td>2020</td>
+      <td>96</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>John K Jr</td>
+      <td>2021</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Rich K</td>
+      <td>2022</td>
+      <td>101</td>
+    </tr>
   </tbody>
 </table>
   </Layout>
