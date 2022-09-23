@@ -1,8 +1,6 @@
 import * as React from "react"
 import DataTable from 'react-data-table-component';
-import { Link } from "gatsby";
 import * as data from "../data/scores.json";
-import Table from "../components/table";
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 const columns = [
@@ -55,6 +53,20 @@ const columns = [
     selector: row => row.total
   }
 ];
+//  Styles for dataTable
+const customDataTableStyles = {
+  headCells: {
+      style: {
+          'font-size': '1rem'
+      },
+  },
+  cells: {
+      style: {
+          'font-size': '1rem',
+          'margin-right': '2.9rem',
+      },
+  },
+};
 const Scores = () => { 
   const [shooter, setShooter] = React.useState(0);
   const filterFunction = () => {
@@ -118,7 +130,7 @@ const Scores = () => {
     </ul>
   </div>
     <h2>Shooter: {data.shooters[shooter].name}</h2>
-    <DataTable columns={columns} data={data.shooters[shooter].scores}></DataTable>    
+    <DataTable columns={columns} data={data.shooters[shooter].scores} customStyles={customDataTableStyles}></DataTable>    
   </Layout>
 ) }
 export default Scores
