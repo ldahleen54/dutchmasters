@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const History = () => (
-  <Layout>
+  <Layout maxWidthProp="1000">
     <Seo title="History" />
     <p><b>The Dutch Masters <q>High Noon Classic</q> Shooting Tournament</b></p>
 
