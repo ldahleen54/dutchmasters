@@ -6,7 +6,8 @@ const years = [
     "2006",
     "2008",
     "2009",
-    "2019"
+    "2019",
+    "2023"
 ]
 process.env.AWS_PROFILE = 'default';
 var AWS = require('aws-sdk');

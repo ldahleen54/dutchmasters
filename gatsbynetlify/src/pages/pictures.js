@@ -7,9 +7,10 @@ import * as objects2006 from "../data/2006s3objects.json"
 import * as objects2008 from "../data/2008s3objects.json"
 import * as objects2009 from "../data/2009s3objects.json"
 import * as objects2019 from "../data/2019s3objects.json"
+import * as objects2019 from "../data/2023s3objects.json"
 
 
-const pictureYears = ["2006", "2008", "2009", "2019"]
+const pictureYears = ["2006", "2008", "2009", "2019", "2023"]
 
 class Pictures extends React.Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class Pictures extends React.Component {
     this.handle2008Click = this.handle2008Click.bind(this);
     this.handle2009Click = this.handle2009Click.bind(this);
     this.handle2019Click = this.handle2019Click.bind(this);
+    this.handle2023Click = this.handle2023Click.bind(this);
     this.state = { 
       currentPictureIndex: 3,
       currentPictureYear: "2019"
@@ -50,6 +52,13 @@ class Pictures extends React.Component {
     this.setState({
       currentPictureIndex: 3,
       currentPictureYear: "2019"
+    })
+  }
+
+  handle2023Click = () => {
+    this.setState({
+      currentPictureIndex: 4,
+      currentPictureYear: "2023"
     })
   }
 
@@ -106,10 +115,20 @@ class Pictures extends React.Component {
           ))}
         </div>
       )
-    } else {
+    } else if (props.year === "2019") {
       return (
         <div>
           {objects2019.objects.map(path => (
+            <li key={path}>
+              <img className="list-group-item list-group-item-primary" src={"https://dutchmasters.s3.us-east-2.amazonaws.com/" + path}/>
+            </li>
+          ))}
+        </div>
+      )
+    } else {
+      return (
+        <div>
+          {objects2023.objects.map(path => (
             <li key={path}>
               <img className="list-group-item list-group-item-primary" src={"https://dutchmasters.s3.us-east-2.amazonaws.com/" + path}/>
             </li>
@@ -160,6 +179,16 @@ class Pictures extends React.Component {
     );
   }
 
+  Button2023 = (props) => {
+    return (
+      <li>
+        <button onClick={this.handle2023Click} className="btn btn-dark">
+         2023
+        </button>
+      </li>
+    );
+  }
+
   ButtonNext = (props) => {
     return (
       <li>
@@ -192,6 +221,7 @@ class Pictures extends React.Component {
               <this.Button2008 />
               <this.Button2009 />
               <this.Button2019 />
+              <this.Button2023 />
               <this.ButtonNext />
             </ul>
           </div>
@@ -203,6 +233,7 @@ class Pictures extends React.Component {
       { this.state.currentPictureYear === "2008" ? <this.PictureGroup year="2008"/> : null }
       { this.state.currentPictureYear === "2009" ? <this.PictureGroup year="2009"/> : null }
       { this.state.currentPictureYear === "2019" ? <this.PictureGroup year="2019"/> : null }
+      { this.state.currentPictureYear === "2023" ? <this.PictureGroup year="2023"/> : null }
         <Link to="/">Back to Home Page</Link>
       </Layout>
     );  
