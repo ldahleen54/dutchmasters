@@ -128,10 +128,11 @@ const Scores = () => {
       <li><btn className="dropdown-item" onClick={() => setShooter(28)}>Jim S Sr</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(29)}>Gary S</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(30)}>John S</btn></li>
-      <li><btn className="dropdown-item" onClick={() => setShooter(31)}>Brian McC</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(31)}>Brian M</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(32)}>Jake K</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(33)}>Davey D</btn></li>
-      <li><btn className="dropdown-item" onClick={() => setShooter(34)}>Mitch K</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(34)}>Josh Z</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(35)}>Mitch K</btn></li>
     </ul>
   </div>
     <h2>Shooter: {data.shooters[shooter].name}</h2>
