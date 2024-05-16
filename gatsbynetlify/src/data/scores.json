@@ -5442,6 +5442,21 @@
           "rabbit": 15,
           "shotgun": 51,
           "total": 83
+        },
+        {
+          "year": 2023,
+          "hogans": -1,
+          "speed": -1,
+          "turkey": -1,
+          "block": -1,
+          "gut": -1,
+          "pistol": 39,
+          "skeet": 7,
+          "teal": 14,
+          "trap": 6,
+          "rabbit": 13,
+          "shotgun": 40,
+          "total": 83
         }
       ]
     },
