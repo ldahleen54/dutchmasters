@@ -25,6 +25,10 @@ const columns = [
     selector: row => row.block
   },
   {
+    name: "Gut Check",
+    selector: row => row.gut
+  },
+  {
     name: "Pistol",
     selector: row => row.pistol
   },
@@ -127,6 +131,7 @@ const Scores = () => {
       <li><btn className="dropdown-item" onClick={() => setShooter(31)}>Brian McC</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(32)}>Jake K</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(33)}>Davey D</btn></li>
+      <li><btn className="dropdown-item" onClick={() => setShooter(34)}>Mitch K</btn></li>
     </ul>
   </div>
     <h2>Shooter: {data.shooters[shooter].name}</h2>
