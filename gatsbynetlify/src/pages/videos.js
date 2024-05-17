@@ -7,7 +7,12 @@ import Video from "../components/video"
 
 const Videos = () => (
   <Layout>
-    <Seo title="Pictures" />
+    <Seo title="Videos" />
+    <Video 
+    videoSrcURL="https://dutchmasters.s3.us-east-2.amazonaws.com/2023/IMG_2928.mp4"
+    videoTitle="Brian shooting"
+    >      
+    </Video>
     <Video
       videoSrcURL="https://www.youtube.com/embed/Z5Y-eRAxNUM"
       videoTitle="Shootout Video 2017"

@@ -7,7 +7,7 @@ import * as objects2006 from "../data/2006s3objects.json"
 import * as objects2008 from "../data/2008s3objects.json"
 import * as objects2009 from "../data/2009s3objects.json"
 import * as objects2019 from "../data/2019s3objects.json"
-import * as objects2019 from "../data/2023s3objects.json"
+import * as objects2023 from "../data/2023s3objects.json"
 
 
 const pictureYears = ["2006", "2008", "2009", "2019", "2023"]
