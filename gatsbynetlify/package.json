@@ -25,7 +25,7 @@
     "babel-jest": "^27.5.1",
     "babel-plugin-remove-graphql-queries": "^5.13.1",
     "babel-preset-gatsby": "^3.13.2",
-    "gatsby": "^5.13.4",
+    "gatsby": "^5.14.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.5.1",
     "prettier": "^2.4.1",
