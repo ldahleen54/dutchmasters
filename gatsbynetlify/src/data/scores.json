@@ -10903,6 +10903,66 @@
           "total": 95
         }
       ]
+    },
+    {
+      "name": "Stephen K",
+      "scores": [
+        {
+          "year": 2024,
+          "hogans": 8,
+          "speed": 8,
+          "turkey": 11,
+          "gut": 5,
+          "block": 1,
+          "pistol": 33,
+          "skeet": 10,
+          "teal": 15,
+          "trap": 15,
+          "rabbit": 13,
+          "shotgun": 53,
+          "total": 86
+        }
+      ]
+    },
+    {
+      "name": "Andrew K",
+      "scores": [
+        {
+          "year": 2024,
+          "hogans": 9,
+          "speed": 12,
+          "turkey": 11,
+          "gut": 6,
+          "block": 5,
+          "pistol": 43,
+          "skeet": 12,
+          "teal": 13,
+          "trap": 15,
+          "rabbit": 15,
+          "shotgun": 55,
+          "total": 98
+        }
+      ]
+    },
+    {
+      "name": "Chris W",
+      "scores": [
+        {
+          "year": 2024,
+          "hogans": 7,
+          "speed": 9,
+          "turkey": 3,
+          "gut": 3,
+          "block": 1,
+          "pistol": 23,
+          "skeet": 8,
+          "teal": 12,
+          "trap": 9,
+          "rabbit": 11,
+          "shotgun": 40,
+          "total": 63
+        }
+      ]
     }
   ]
 }
