@@ -87,11 +87,16 @@ const Scores = () => {
       }
     }
   }
+  const focusFilterButton = () => {
+    let input = document.getElementById("myInput");
+    input.focus()
+  }
+
   return(
   <Layout>
     <Seo title="Scores" />
   <div className="dropdown">
-    <button className="btn btn-secondary dropdown-toggle" type="button" id="selectShooter" data-bs-toggle="dropdown" aria-expanded="false">
+    <button className="btn btn-secondary dropdown-toggle" type="button" id="selectShooter" data-bs-toggle="dropdown" aria-expanded="false" onClick={() => focusFilterButton()}>
       {data.shooters[shooter].name}
     </button>
     <ul className="dropdown-menu" aria-labelledby="selectShooter" id="shooterDropdown">
