@@ -77,7 +77,6 @@ const Scores = () => {
     let input = document.getElementById("myInput");
     let filter = input.value.toUpperCase();
     let div = document.getElementById("shooterDropdown");
-    console.log("called filter function");
     let btn = div.getElementsByTagName("btn");
     for (let i = 0; i < btn.length; i++) {
       let txtValue = btn[i].textContent || btn[i].innerText;
@@ -96,7 +95,7 @@ const Scores = () => {
       {data.shooters[shooter].name}
     </button>
     <ul className="dropdown-menu" aria-labelledby="selectShooter" id="shooterDropdown">
-      <li><input type="text" placeholder="Search.." id="myInput" onKeyUp={() => filterFunction()} /></li>
+      <li><input type="text" placeholder="Type shooter name.." id="myInput" onKeyUp={() => filterFunction()} /></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(0)}>Bill A</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(1)}>Brad D</btn></li>
       <li><btn className="dropdown-item" onClick={() => setShooter(2)}>Eric D</btn></li>
