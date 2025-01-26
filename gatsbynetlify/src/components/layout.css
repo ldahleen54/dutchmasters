@@ -596,3 +596,7 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.dropdown-menu {
+  max-height: 200px;
+  overflow-y: auto;
+}
