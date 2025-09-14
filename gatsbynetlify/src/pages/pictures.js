@@ -92,7 +92,7 @@ class Pictures extends React.Component {
       let images = []
       images = objects2006.objects.map(path => {
           return {
-            src: "https://dutchmasters.s3-us-east-2.amazonaws.com/" + path,
+            src: s3BucketPrefix + path,
             width: 2000,
             height: 1000
           }
@@ -125,7 +125,7 @@ class Pictures extends React.Component {
         <div>
           {objects2008.objects.map(path => (
             <li key={path}>
-              <img className="list-group-item list-group-item-primary" src={"https://dutchmasters.s3.us-east-2.amazonaws.com/" + path}/>
+              <img className="list-group-item list-group-item-primary" src={s3BucketPrefix + path}/>
             </li>
           ))}
         </div>
@@ -135,7 +135,7 @@ class Pictures extends React.Component {
         <div>
           {objects2009.objects.map(path => (
             <li key={path}>
-              <img className="list-group-item list-group-item-primary" src={"https://dutchmasters.s3.us-east-2.amazonaws.com/" + path}/>
+              <img className="list-group-item list-group-item-primary" src={s3BucketPrefix + path}/>
             </li>
           ))}
         </div>
@@ -145,7 +145,7 @@ class Pictures extends React.Component {
         <div>
           {objects2019.objects.map(path => (
             <li key={path}>
-              <img className="list-group-item list-group-item-primary" src={"https://dutchmasters.s3.us-east-2.amazonaws.com/" + path}/>
+              <img className="list-group-item list-group-item-primary" src={s3BucketPrefix + path}/>
             </li>
           ))}
         </div>
@@ -155,7 +155,7 @@ class Pictures extends React.Component {
         <div>
           {objects2023.objects.map(path => (
             <li key={path}>
-              <img className="list-group-item list-group-item-primary" src={"https://dutchmasters.s3.us-east-2.amazonaws.com/" + path}/>
+              <img className="list-group-item list-group-item-primary" src={s3BucketPrefix + path}/>
             </li>
           ))}
         </div>
