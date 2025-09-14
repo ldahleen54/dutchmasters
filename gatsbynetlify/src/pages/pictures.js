@@ -108,7 +108,7 @@ class Pictures extends React.Component {
         <div>
           <Gallery
           images={images} 
-          onClick={() => this.state.setLightboxOpened(true)}  
+          onClick={() => this.setLightboxOpened(true)}  
           />
           <Lightbox
             open={this.state.lightboxOpened}
