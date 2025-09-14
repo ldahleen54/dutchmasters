@@ -8,9 +8,11 @@ import * as objects2008 from "../data/2008s3objects.json"
 import * as objects2009 from "../data/2009s3objects.json"
 import * as objects2019 from "../data/2019s3objects.json"
 import * as objects2023 from "../data/2023s3objects.json"
+import { Gallery } from "react-grid-gallery"
 
 
 const pictureYears = ["2006", "2008", "2009", "2019", "2023"]
+const s3BucketPrefix = "https://dutchmasters.s3.us-east-2.amazonaws.com/"
 
 class Pictures extends React.Component {
   constructor(props) {
@@ -86,6 +88,16 @@ class Pictures extends React.Component {
 
   PictureGroup = (props) => {
     if(props.year === "2006") {
+      let images = []
+      images = objects2006.objects.map(path => {
+          return {
+            src: "https://dutchmasters.s3-us-east-2.amazonaws.com/" + path,
+            width: 2000,
+            height: 1000
+          }
+        }
+      );
+      return (<Gallery images={images} />);
       return (
         <ul>
           {objects2006.objects.map(path => (
