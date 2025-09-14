@@ -24,6 +24,7 @@ class Pictures extends React.Component {
     this.handle2009Click = this.handle2009Click.bind(this);
     this.handle2019Click = this.handle2019Click.bind(this);
     this.handle2023Click = this.handle2023Click.bind(this);
+    this.handleGalleryClicked = this.handleGalleryClicked(this);
     this.state = { 
       currentPictureIndex: 4,
       currentPictureYear: "2023",
@@ -33,6 +34,8 @@ class Pictures extends React.Component {
 
   /* State functions */
   setLightboxOpened = (value) => {
+    console.log("set lightbox open function");
+    console.log(value);
     this.setState({ 
       currentPictureIndex: this.state.currentPictureIndex,
       currentPictureYear: this.state.currentPictureYear,
@@ -41,6 +44,14 @@ class Pictures extends React.Component {
   }
 
   /* Handlers */
+  handleGalleryClicked = () => {
+    this.setState({
+      currentPictureIndex: this.state.currentPictureIndex,
+      currentPictureYear: this.state.currentPictureYear,
+      lightboxOpened: true
+    })
+  }
+
   handle2006Click = () => {
     this.setState({ 
       currentPictureIndex: 0,
@@ -112,7 +123,7 @@ class Pictures extends React.Component {
         <div>
           <Gallery
           images={images} 
-          onClick={() => this.setLightboxOpened(true)}  
+          onClick={this.handleGalleryClicked}  
           />
           <Lightbox
             open={this.state.lightboxOpened}
