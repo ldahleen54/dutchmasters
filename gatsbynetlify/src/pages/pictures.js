@@ -15,7 +15,9 @@ import Lightbox from "yet-another-react-lightbox";
 const pictureYears = ["2006", "2008", "2009", "2019", "2023"]
 const s3BucketPrefix = "https://dutchmasters.s3.us-east-2.amazonaws.com/"
 
-class Pictures extends React.Component {  
+class Pictures extends React.Component {
+  const [lightboxOpened, setLightboxOpened] = React.useState(false);
+
   constructor(props) {
     super(props);
     this.handle2006Click = this.handle2006Click.bind(this);
@@ -100,7 +102,7 @@ class Pictures extends React.Component {
         <div>
           <Gallery
           images={images} 
-          onClick={handleClick}  
+          onClick={() => setLightboxOpened(true)}  
           />
           <Lightbox
             open={lightboxOpened}
