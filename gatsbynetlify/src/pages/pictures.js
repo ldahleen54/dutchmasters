@@ -33,7 +33,11 @@ class Pictures extends React.Component {
 
   /* State functions */
   setLightboxOpened = (value) => {
-    this.setState({ lightboxOpened: value });
+    this.setState({ 
+      currentPictureIndex: this.state.currentPictureIndex,
+      currentPictureYear: this.state.currentPictureYear,
+      lightboxOpened: value 
+    });
   }
 
   /* Handlers */
@@ -114,18 +118,9 @@ class Pictures extends React.Component {
             open={this.state.lightboxOpened}
             close={() => this.setLightboxOpened(false)}
             slides={images}
-          />          
+          />
         </div>
-      );
-      return (
-        <ul>
-          {objects2006.objects.map(path => (
-            <li key={path}>
-              <img className="list-group-item list-group-item-primary" src={"https://dutchmasters.s3.us-east-2.amazonaws.com/" + path}/>
-            </li>
-          ))}
-        </ul>        
-      )    
+      );  
     } else if(props.year === "2008") {
       return (
         <div>
