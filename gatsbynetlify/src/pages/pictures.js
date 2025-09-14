@@ -9,12 +9,13 @@ import * as objects2009 from "../data/2009s3objects.json"
 import * as objects2019 from "../data/2019s3objects.json"
 import * as objects2023 from "../data/2023s3objects.json"
 import { Gallery } from "react-grid-gallery"
+import Lightbox from "yet-another-react-lightbox";
 
 
 const pictureYears = ["2006", "2008", "2009", "2019", "2023"]
 const s3BucketPrefix = "https://dutchmasters.s3.us-east-2.amazonaws.com/"
 
-class Pictures extends React.Component {
+class Pictures extends React.Component {  
   constructor(props) {
     super(props);
     this.handle2006Click = this.handle2006Click.bind(this);
@@ -26,7 +27,7 @@ class Pictures extends React.Component {
       currentPictureIndex: 4,
       currentPictureYear: "2023"
     };
-  }
+  }  
 
   /* Handlers */
   handle2006Click = () => {
@@ -75,7 +76,6 @@ class Pictures extends React.Component {
   }
 
   handlePreviousClick = () => {
-    console.log("handled previous click")
     let nextIndex = this.state.currentPictureIndex - 1;
     if (nextIndex >= 0) {
       this.setState({
@@ -84,7 +84,6 @@ class Pictures extends React.Component {
       })
     }    
   }
-
 
   PictureGroup = (props) => {
     if(props.year === "2006") {
@@ -97,7 +96,19 @@ class Pictures extends React.Component {
           }
         }
       );
-      return (<Gallery images={images} />);
+      return (
+        <div>
+          <Gallery
+          images={images} 
+          onClick={handleClick}  
+          />
+          <Lightbox
+            open={lightboxOpened}
+            close={() => setLightboxOpened(false)}
+            slides={images}
+          />          
+        </div>
+      );
       return (
         <ul>
           {objects2006.objects.map(path => (
