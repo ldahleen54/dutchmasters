@@ -18,7 +18,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <ImageGallery items={images} />
     <p>
-      <Link to="/pictures">See More Pictursaes</Link>
+      <Link to="/pictures">See More Pictures</Link>
     </p>
   </Layout>
 )
