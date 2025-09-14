@@ -23,8 +23,8 @@ class Pictures extends React.Component {
     this.handle2019Click = this.handle2019Click.bind(this);
     this.handle2023Click = this.handle2023Click.bind(this);
     this.state = { 
-      currentPictureIndex: 3,
-      currentPictureYear: "2019"
+      currentPictureIndex: 4,
+      currentPictureYear: "2023"
     };
   }
 
