@@ -14,7 +14,6 @@ import Lightbox from "yet-another-react-lightbox";
 
 const pictureYears = ["2006", "2008", "2009", "2019", "2023"]
 const s3BucketPrefix = "https://dutchmasters.s3.us-east-2.amazonaws.com/"
-const [lightboxOpened, setLightboxOpened] = React.useState(false);
 
 class Pictures extends React.Component {
 
@@ -27,15 +26,22 @@ class Pictures extends React.Component {
     this.handle2023Click = this.handle2023Click.bind(this);
     this.state = { 
       currentPictureIndex: 4,
-      currentPictureYear: "2023"
+      currentPictureYear: "2023",
+      lightboxOpened: false
     };
-  }  
+  }
+
+  /* State functions */
+  setLightboxOpened = (value) => {
+    this.setState({ lightboxOpened: value });
+  }
 
   /* Handlers */
   handle2006Click = () => {
     this.setState({ 
       currentPictureIndex: 0,
-      currentPictureYear: "2006"
+      currentPictureYear: "2006",
+      lightboxOpened: false
     })
   }
 
@@ -102,11 +108,11 @@ class Pictures extends React.Component {
         <div>
           <Gallery
           images={images} 
-          onClick={() => setLightboxOpened(true)}  
+          onClick={() => this.state.setLightboxOpened(true)}  
           />
           <Lightbox
-            open={lightboxOpened}
-            close={() => setLightboxOpened(false)}
+            open={this.state.lightboxOpened}
+            close={() => this.setLightboxOpened(false)}
             slides={images}
           />          
         </div>
