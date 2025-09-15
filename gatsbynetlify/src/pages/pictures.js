@@ -19,17 +19,17 @@ class Pictures extends React.Component {
 
   constructor(props) {
     super(props);
+    this.state = { 
+      currentPictureIndex: 4,
+      currentPictureYear: "2023",
+      lightboxOpened: false
+    };
     this.handle2006Click = this.handle2006Click.bind(this);
     this.handle2008Click = this.handle2008Click.bind(this);
     this.handle2009Click = this.handle2009Click.bind(this);
     this.handle2019Click = this.handle2019Click.bind(this);
     this.handle2023Click = this.handle2023Click.bind(this);
     this.handleGalleryClicked = this.handleGalleryClicked(this);
-    this.state = { 
-      currentPictureIndex: 4,
-      currentPictureYear: "2023",
-      lightboxOpened: false
-    };
   }
 
   /* State functions */
