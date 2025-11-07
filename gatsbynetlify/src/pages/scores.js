@@ -21,7 +21,7 @@ const columns = [
     selector: row => row.turkey
   },
   {
-    name: "Block",
+    name: "Knock Down",
     selector: row => row.block
   },
   {
