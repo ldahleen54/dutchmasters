@@ -466,6 +466,21 @@
           "rabbit": 14,
           "shotgun": 47,
           "total": 73
+        },
+        {
+          "year": 2025,
+          "hogans": 6,
+          "speed": 8,
+          "turkey": 2,
+          "gut": 3,
+          "block": 4,
+          "pistol": 23,
+          "skeet": 11,
+          "teal": 14,
+          "trap": 10,
+          "rabbit": 10,
+          "shotgun": 45,
+          "total": 68
         }
       ]
     },
@@ -913,13 +928,13 @@
           "turkey": 1,
           "block": 5,
           "gut": 4,
-          "pistol": 14,
+          "pistol": 17,
           "skeet": 6,
           "teal": 9,
           "trap": 5,
           "rabbit": 5,
           "shotgun": 25,
-          "total": 39
+          "total": 42
         },
         {
           "year": 2024,
@@ -1138,6 +1153,21 @@
           "rabbit": 13,
           "shotgun": 43,
           "total": 69
+        },
+        {
+          "year": 2025,
+          "hogans": 10,
+          "speed": 12,
+          "turkey": 11,
+          "gut": 6,
+          "block": 5,
+          "pistol": 44,
+          "skeet": 17,
+          "teal": 18,
+          "trap": 14,
+          "rabbit": 14,
+          "shotgun": 63,
+          "total": 107
         }
       ]
     },
@@ -1607,6 +1637,21 @@
           "rabbit": 11,
           "shotgun": 43,
           "total": 65
+        },
+        {
+          "year": 2025,
+          "hogans": 7,
+          "speed": 6,
+          "turkey": 4,
+          "gut": 3,
+          "block": 1,
+          "pistol": 21,
+          "skeet": 5,
+          "teal": 10,
+          "trap": 15,
+          "rabbit": 10,
+          "shotgun": 40,
+          "total": 61
         }
       ]
     },
@@ -1782,6 +1827,21 @@
           "rabbit": 10,
           "shotgun": 36,
           "total": 59
+        },
+        {
+          "year": 2025,
+          "hogans": 8,
+          "speed": 11,
+          "turkey": 5,
+          "gut": 6,
+          "block": 5,
+          "pistol": 35,
+          "skeet": 13,
+          "teal": 14,
+          "trap": 16,
+          "rabbit": 11,
+          "shotgun": 54,
+          "total": 89
         }
       ]
     },
@@ -2605,13 +2665,13 @@
           "turkey": 9,
           "block": 4,
           "gut": 1,
-          "pistol": 33,
+          "pistol": 34,
           "skeet": 11,
           "teal": 15,
           "trap": 10,
           "rabbit": 10,
           "shotgun": 46,
-          "total": 79
+          "total": 80
         },
         {
           "year": 2024,
@@ -2627,6 +2687,21 @@
           "rabbit": 18,
           "shotgun": 54,
           "total": 92
+        },
+        {
+          "year": 2025,
+          "hogans": 10,
+          "speed": 11,
+          "turkey": 7,
+          "gut": 4,
+          "block": 2,
+          "pistol": 34,
+          "skeet": 12,
+          "teal": 17,
+          "trap": 7,
+          "rabbit": 6,
+          "shotgun": 42,
+          "total": 76
         }
       ]
     },
@@ -2802,6 +2877,21 @@
           "rabbit": 13,
           "shotgun": 52,
           "total": 97
+        },
+        {
+          "year": 2025,
+          "hogans": 5,
+          "speed": 9,
+          "turkey": 6,
+          "gut": 2,
+          "block": 7,
+          "pistol": 29,
+          "skeet": 16,
+          "teal": 18,
+          "trap": 13,
+          "rabbit": 13,
+          "shotgun": 60,
+          "total": 89
         }
       ]
     },
@@ -3791,6 +3881,21 @@
           "rabbit": 9,
           "shotgun": 51,
           "total": 80
+        },
+        {
+          "year": 2025,
+          "hogans": 6,
+          "speed": 9,
+          "turkey": 9,
+          "gut": 2,
+          "block": 3,
+          "pistol": 29,
+          "skeet": 13,
+          "teal": 15,
+          "trap": 11,
+          "rabbit": 8,
+          "shotgun": 47,
+          "total": 76
         }
       ]
     },
@@ -4260,6 +4365,21 @@
           "rabbit": 18,
           "shotgun": 58,
           "total": 105
+        },
+        {
+          "year": 2025,
+          "hogans": 6,
+          "speed": 8,
+          "turkey": 9,
+          "gut": 6,
+          "block": 7,
+          "pistol": 36,
+          "skeet": 15,
+          "teal": 17,
+          "trap": 16,
+          "rabbit": 9,
+          "shotgun": 57,
+          "total": 93
         }
       ]
     },
@@ -4729,6 +4849,21 @@
           "rabbit": 12,
           "shotgun": 50,
           "total": 83
+        },
+        {
+          "year": 2025,
+          "hogans": 6,
+          "speed": 7,
+          "turkey": 4,
+          "gut": 3,
+          "block": 4,
+          "pistol": 24,
+          "skeet": 12,
+          "teal": 12,
+          "trap": 11,
+          "rabbit": 9,
+          "shotgun": 44,
+          "total": 68
         }
       ]
     },
@@ -5198,6 +5333,21 @@
           "rabbit": 14,
           "shotgun": 50,
           "total": 84
+        },
+        {
+          "year": 2025,
+          "hogans": 9,
+          "speed": 8,
+          "turkey": 9,
+          "gut": 3,
+          "block": 1,
+          "pistol": 30,
+          "skeet": 12,
+          "teal": 18,
+          "trap": 13,
+          "rabbit": 11,
+          "shotgun": 54,
+          "total": 84
         }
       ]
     },
@@ -5640,18 +5790,18 @@
         },
         {
           "year": 2023,
-          "hogans": -1,
-          "speed": -1,
-          "turkey": -1,
-          "block": -1,
-          "gut": -1,
+          "hogans": 7,
+          "speed": 11,
+          "turkey": 8,
+          "block": 5,
+          "gut": 8,
           "pistol": 39,
           "skeet": 7,
           "teal": 14,
           "trap": 6,
           "rabbit": 13,
           "shotgun": 40,
-          "total": 83
+          "total": 79
         },
         {
           "year": 2024,
@@ -5667,6 +5817,21 @@
           "rabbit": 13,
           "shotgun": 41,
           "total": 72
+        },
+        {
+          "year": 2025,
+          "hogans": 4,
+          "speed": 5,
+          "turkey": 6,
+          "gut": 2,
+          "block": 4,
+          "pistol": 21,
+          "skeet": 13,
+          "teal": 1,
+          "trap": 8,
+          "rabbit": 5,
+          "shotgun": 27,
+          "total": 48
         }
       ]
     },
@@ -6136,6 +6301,21 @@
           "rabbit": 14,
           "shotgun": 53,
           "total": 86
+        },
+        {
+          "year": 2025,
+          "hogans": 9,
+          "speed": 11,
+          "turkey": 10,
+          "gut": 4,
+          "block": 3,
+          "pistol": 37,
+          "skeet": 17,
+          "teal": 17,
+          "trap": 13,
+          "rabbit": 10,
+          "shotgun": 57,
+          "total": 94
         }
       ]
     },
@@ -6339,6 +6519,21 @@
           "rabbit": 17,
           "shotgun": 59,
           "total": 98
+        },
+        {
+          "year": 2025,
+          "hogans": 9,
+          "speed": 10,
+          "turkey": 12,
+          "gut": 6,
+          "block": 7,
+          "pistol": 44,
+          "skeet": 16,
+          "teal": 16,
+          "trap": 12,
+          "rabbit": 12,
+          "shotgun": 56,
+          "total": 100
         }
       ]
     },
@@ -7135,6 +7330,21 @@
           "rabbit": 16,
           "shotgun": 42,
           "total": 71
+        },
+        {
+          "year": 2025,
+          "hogans": 7,
+          "speed": 8,
+          "turkey": 3,
+          "gut": 3,
+          "block": 0,
+          "pistol": 21,
+          "skeet": 10,
+          "teal": 12,
+          "trap": 14,
+          "rabbit": 8,
+          "shotgun": 44,
+          "total": 65
         }
       ]
     },
@@ -7498,6 +7708,21 @@
           "rabbit": 16,
           "shotgun": 51,
           "total": 82
+        },
+        {
+          "year": 2025,
+          "hogans": 6,
+          "speed": 11,
+          "turkey": 10,
+          "gut": 4,
+          "block": 6,
+          "pistol": 37,
+          "skeet": 8,
+          "teal": 18,
+          "trap": 14,
+          "rabbit": 10,
+          "shotgun": 50,
+          "total": 87
         }
       ]
     },
@@ -8393,6 +8618,21 @@
           "rabbit": 15,
           "shotgun": 46,
           "total": 73
+        },
+        {
+          "year": 2025,
+          "hogans": 9,
+          "speed": 8,
+          "turkey": 4,
+          "gut": 4,
+          "block": 5,
+          "pistol": 30,
+          "skeet": 13,
+          "teal": 18,
+          "trap": 4,
+          "rabbit": 6,
+          "shotgun": 41,
+          "total": 71
         }
       ]
     },
@@ -8862,6 +9102,21 @@
           "rabbit": 13,
           "shotgun": 54,
           "total": 94
+        },
+        {
+          "year": 2025,
+          "hogans": 7,
+          "speed": 10,
+          "turkey": 12,
+          "gut": 6,
+          "block": 5,
+          "pistol": 40,
+          "skeet": 15,
+          "teal": 17,
+          "trap": 10,
+          "rabbit": 13,
+          "shotgun": 55,
+          "total": 95
         }
       ]
     },
@@ -9078,6 +9333,21 @@
           "rabbit": 15,
           "shotgun": 53,
           "total": 68
+        },
+        {
+          "year": 2025,
+          "hogans": 8,
+          "speed": 9,
+          "turkey": 8,
+          "gut": 3,
+          "block": 1,
+          "pistol": 29,
+          "skeet": 14,
+          "teal": 15,
+          "trap": 15,
+          "rabbit": 5,
+          "shotgun": 49,
+          "total": 78
         }
       ]
     },
@@ -9282,6 +9552,21 @@
           "rabbit": 15,
           "shotgun": 51,
           "total": 87
+        },
+        {
+          "year": 2025,
+          "hogans": 6,
+          "speed": 7,
+          "turkey": 7,
+          "gut": 6,
+          "block": 4,
+          "pistol": 30,
+          "skeet": 15,
+          "teal": 17,
+          "trap": 13,
+          "rabbit": 10,
+          "shotgun": 55,
+          "total": 85
         }
       ]
     },
@@ -9638,6 +9923,21 @@
           "rabbit": 17,
           "shotgun": 54,
           "total": 79
+        },
+        {
+          "year": 2025,
+          "hogans": 11,
+          "speed": 9,
+          "turkey": 9,
+          "gut": 6,
+          "block": 4,
+          "pistol": 39,
+          "skeet": 16,
+          "teal": 18,
+          "trap": 15,
+          "rabbit": 10,
+          "shotgun": 59,
+          "total": 98
         }
       ]
     },
@@ -10107,6 +10407,21 @@
           "rabbit": 15,
           "shotgun": 47,
           "total": 80
+        },
+        {
+          "year": 2025,
+          "hogans": 7,
+          "speed": 11,
+          "turkey": 8,
+          "gut": 5,
+          "block": 3,
+          "pistol": 34,
+          "skeet": 11,
+          "teal": 13,
+          "trap": 13,
+          "rabbit": 8,
+          "shotgun": 45,
+          "total": 79
         }
       ]
     },
@@ -10296,6 +10611,21 @@
           "rabbit": 16,
           "shotgun": 52,
           "total": 82
+        },
+        {
+          "year": 2025,
+          "hogans": 8,
+          "speed": 10,
+          "turkey": 8,
+          "gut": 3,
+          "block": 4,
+          "pistol": 33,
+          "skeet": 12,
+          "teal": 14,
+          "trap": 11,
+          "rabbit": 8,
+          "shotgun": 45,
+          "total": 78
         }
       ]
     },
@@ -10560,6 +10890,21 @@
           "rabbit": 13,
           "shotgun": 51,
           "total": 71
+        },
+        {
+          "year": 2025,
+          "hogans": 8,
+          "speed": 9,
+          "turkey": 4,
+          "gut": 4,
+          "block": 4,
+          "pistol": 29,
+          "skeet": 17,
+          "teal": 15,
+          "trap": 13,
+          "rabbit": 12,
+          "shotgun": 57,
+          "total": 86
         }
       ]
     },
@@ -10866,6 +11211,21 @@
           "rabbit": 9,
           "shotgun": 29,
           "total": 57
+        },
+        {
+          "year": 2025,
+          "hogans": 3,
+          "speed": 9,
+          "turkey": 5,
+          "gut": 1,
+          "block": 3,
+          "pistol": 21,
+          "skeet": 4,
+          "teal": 9,
+          "trap": 3,
+          "rabbit": 5,
+          "shotgun": 21,
+          "total": 42
         }
       ]
     },
@@ -10901,6 +11261,21 @@
           "rabbit": 11,
           "shotgun": 49,
           "total": 95
+        },
+        {
+          "year": 2025,
+          "hogans": 10,
+          "speed": 10,
+          "turkey": 10,
+          "gut": 1,
+          "block": 5,
+          "pistol": 36,
+          "skeet": 13,
+          "teal": 17,
+          "trap": 12,
+          "rabbit": 14,
+          "shotgun": 56,
+          "total": 92
         }
       ]
     },
@@ -10921,6 +11296,21 @@
           "rabbit": 13,
           "shotgun": 53,
           "total": 86
+        },
+        {
+          "year": 2025,
+          "hogans": 11,
+          "speed": 9,
+          "turkey": 5,
+          "gut": 5,
+          "block": 4,
+          "pistol": 34,
+          "skeet": 16,
+          "teal": 17,
+          "trap": 15,
+          "rabbit": 13,
+          "shotgun": 61,
+          "total": 95
         }
       ]
     },
@@ -10941,6 +11331,21 @@
           "rabbit": 15,
           "shotgun": 55,
           "total": 98
+        },
+        {
+          "year": 2025,
+          "hogans": 10,
+          "speed": 10,
+          "turkey": 11,
+          "gut": 6,
+          "block": 7,
+          "pistol": 44,
+          "skeet": 16,
+          "teal": 16,
+          "trap": 10,
+          "rabbit": 7,
+          "shotgun": 49,
+          "total": 93
         }
       ]
     },
@@ -10961,6 +11366,21 @@
           "rabbit": 11,
           "shotgun": 40,
           "total": 63
+        },
+        {
+          "year": 2025,
+          "hogans": 4,
+          "speed": 7,
+          "turkey": 4,
+          "gut": 2,
+          "block": 1,
+          "pistol": 18,
+          "skeet": 10,
+          "teal": 16,
+          "trap": 6,
+          "rabbit": 7,
+          "shotgun": 39,
+          "total": 57
         }
       ]
     }

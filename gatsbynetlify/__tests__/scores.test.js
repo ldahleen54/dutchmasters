@@ -35,6 +35,9 @@ describe("Scores", () => {
                 if (score.turkey) {
                     pistolSubTotal = pistolSubTotal + score.turkey;
                 }
+                if (score.gut) {
+                    pistolSubTotal = pistolSubTotal + score.gut;
+                }
                 // Note if score.block is undefined then the subtotal is still verified
                 if (score.block !== null) {
                     pistolSubTotal = pistolSubTotal + score.block;
