@@ -8,8 +8,8 @@ const Navbar = () => {
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbar-content">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-2">
+                <div class="collapse navbar-collapse mt-2" id="navbar-content">
+                    <ul class="d-flex navbar-nav me-auto mb-2 mb-lg-0 align-items-end">
                         <li class="nav-item">
                             <Link to="/info" className="btn btn-primary">Important Info!</Link>
                         </li>
