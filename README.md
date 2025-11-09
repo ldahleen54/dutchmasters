@@ -2,8 +2,10 @@
 Website for a gun tournament
 
 # Setup
-npm install -g gatsby-cli
-gatsby develop
+1. clone the repo
+2. `cd gatsbynetlify`
+3. `npm install -g gatsby-cli`
+4. `gatsby develop`
 
 # Planned Features
 * Sort pictures by year
