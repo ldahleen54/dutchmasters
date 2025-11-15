@@ -601,3 +601,7 @@ pre tt:after {
   max-height: 200px;
   overflow-y: auto;
 }
+
+.bg-light {
+  background-color: #B3B3BF !important;
+}

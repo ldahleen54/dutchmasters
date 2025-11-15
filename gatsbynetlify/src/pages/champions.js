@@ -216,7 +216,7 @@ const Champions = () => (
     <tr>
       <td>34</td>
       <td>Eric</td>
-      <td>2024</td>
+      <td>2025</td>
       <td>107</td>
     </tr>
   </tbody>
