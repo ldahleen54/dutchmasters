@@ -14,3 +14,4 @@ Website for a gun tournament
 * Search scores by name and sort by highest scores
 * Average for each score by person
 * Content management system
+*
